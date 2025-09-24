@@ -1,17 +1,15 @@
 import Image from "next/image";
-import Hero from "./Components/Home/components/Hero";
-import IntroIIC from "./Components/Home/components/IntroIIC";
-import Navbar from "./Components/Home/components/Navbar";
-import Events from "./Components/Home/components/Events";
-import Resources from "./Components/Home/components/Resources";
-import Footer from "./Components/Home/components/Footer";
-import JoinUs from "./Components/Home/components/JoinUs";
-import FAQComponent from "./Components/Home/components/Faqs";
+import Hero from "./Home/components/Hero";
+import IntroIIC from "./Home/components/IntroIIC";
+import Events from "./Home/components/Events";
+import Resources from "./Home/components/Resources";
+import JoinUs from "./Home/components/JoinUs";
+import FAQComponent from "./Home/components/Faqs";
+import Testimonials from "./Home/components/Testimonials";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
       <Hero />
 
       <div className="min-h-screen w-full px-4">
@@ -26,9 +24,9 @@ export default function Home() {
       <IntroIIC />
       <Events />
       <Resources />
+      <Testimonials />
       <FAQComponent />
       <JoinUs />
-      <Footer />
     </>
   );
 }

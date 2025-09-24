@@ -47,16 +47,6 @@ const JoinUs = () => {
           </div>
         </div>
       </div>
-      <div className="absolute w-full h-full">
-        <div className="mt-28 text-6xl px-80 flex justify-between">
-          <div className="">🚀</div>
-          <div className="">🏆</div>
-        </div>
-        <div className="mt-40 text-6xl px-40 flex justify-between">
-          <div className="">🤝</div>
-          <div className="">📢</div>
-        </div>
-      </div>
 
       <div className="absolute w-full h-full flex flex-col justify-between">
         <div className="">

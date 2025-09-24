@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer w-full flex justify-center items-center flex-col py-10">
       <div className="max-w-7xl w-full flex flex-col ">
         <div className="w-full flex justify-center mb-10">
-          <p className="h-[2px] w-[70%] bg-gradient-to-r from-transparent via-secondary to-transparent"></p>
+          <p className="h-[1px] w-full bg-secondary"></p>
         </div>
 
         <div className=" flex flex-col justify-center">
