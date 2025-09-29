@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="min-h-screen bg-foreground">
       <main className="flex flex-col items-center justify-center text-center py-20 px-4 md:px-8 lg:px-16">
-        <div className="flex items-center gap-2 text-sm md:text-base max-w-xl text-secondary mb-12">
+        <div className="flex items-center gap-2 text-sm md:text-base text-secondary mb-12">
           <Image
             src="/images/logos/IIC logo.png"
             alt="Image 1"
@@ -13,30 +13,33 @@ const Hero = () => {
             height={100}
             className=""
           />
-          <p>Institution&apos;s Innovation Council, BIT Sindri</p>
+          <p>
+            Institution&apos;s Innovation Council cum Entrepreneurship Cell, BIT
+            Sindri
+          </p>
         </div>
-        <h2 className="font-calsans text-5xl md:text-5xl lg:text-7xl leading-loose mb-8">
+        <h2 className="font-calsans text-5xl md:text-5xl lg:text-7xl md:leading-loose mb-8">
           Empowering{" "}
           <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700">
-            <Image
+            {/* <Image
               src="/images/small.jpg"
               alt="Image 1"
               width={80}
               height={100}
               className="rounded-full h-16 w-20 -mb-2"
-            />
+            /> */}
           </span>{" "}
           <span className="text-accent">Design</span>
           <br />
           <span className="text-secondary">for</span>{" "}
           <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700">
-            <Image
+            {/* <Image
               src="/images/small.jpg"
               alt="Image 1"
               width={80}
               height={100}
               className="rounded-full h-16 w-20 -mb-2"
-            />
+            /> */}
           </span>{" "}
           Design Startups
           <br />

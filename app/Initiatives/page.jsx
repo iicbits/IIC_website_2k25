@@ -1,24 +1,53 @@
+"use client";
+
 import Image from "next/image";
-import React from "react";
+import Link from "next/link";
+import React, { useState } from "react";
 
 const services = [
   {
     title: "Web Design",
     description:
       "We design visually compelling, user-centric websites that blend creativity with functional brand from scratch.",
-    image: "/images/incub.png",
+    image: ["/images/incub.png", "/images/startup.png"],
     tags: ["UI/UX Design", "Responsive Layouts", "Web Development"],
   },
   {
     title: "Web Design",
     description:
       "We design visually compelling, user-centric websites that blend creativity with functional brand from scratch.",
-    image: "/images/incub.png",
+    image: ["/images/incub.png", "/images/startup.png"],
     tags: ["UI/UX Design", "Responsive Layouts", "Web Development"],
   },
 ];
 
 const page = () => {
+  const [currentSlides, setCurrentSlides] = useState(services.map(() => 0));
+
+  const nextSlide = (serviceIndex) => {
+    setCurrentSlides((prev) =>
+      prev.map((slide, idx) =>
+        idx === serviceIndex
+          ? slide === services[serviceIndex].image.length - 1
+            ? 0
+            : slide + 1
+          : slide
+      )
+    );
+  };
+
+  const prevSlide = (serviceIndex) => {
+    setCurrentSlides((prev) =>
+      prev.map((slide, idx) =>
+        idx === serviceIndex
+          ? slide === 0
+            ? services[serviceIndex].image.length - 1
+            : slide - 1
+          : slide
+      )
+    );
+  };
+
   return (
     <section className="">
       <div className="min-h-screen md:min-h-[80vh] bg-foreground">
@@ -69,15 +98,30 @@ const page = () => {
               </div>
 
               {/* Image and tags */}
+
               <div className="w-full lg:w-1/2 flex flex-col items-center">
-                <div className="bg-white rounded-lg shadow-lg overflow-hidden w-full max-w-xl">
+                <div className="relative bg-white rounded-lg shadow-lg overflow-hidden w-full max-w-xl">
                   <Image
-                    src={service.image}
+                    src={service.image[currentSlides[index]]}
                     alt={service.title}
                     className="w-full h-auto object-cover"
                     width={500}
                     height={300}
                   />
+                  <div className="absolute inset-0">
+                    <button
+                      onClick={() => prevSlide(index)}
+                      className="absolute bottom-2 right-16 -translate-y-1/2 bg-white/30 backdrop:blur-lg p-2 rounded-full shadow-md"
+                    >
+                      &lt;
+                    </button>
+                    <button
+                      onClick={() => nextSlide(index)}
+                      className="absolute bottom-2 right-4 -translate-y-1/2 bg-white/30 backdrop:blur-lg p-2 rounded-full shadow-md"
+                    >
+                      &gt;
+                    </button>
+                  </div>
                 </div>
 
                 {/* Tags */}
@@ -100,6 +144,35 @@ const page = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Call to Action Button */}
+        <div className="max-w-7xl mx-auto mt-40 w-full h-[70vh] md:h-[60vh]">
+          <div className="relative w-full h-full">
+            <Image
+              src="/images/incub.png"
+              alt="Incubator"
+              width={500}
+              height={300}
+              className="w-full h-full object-cover rounded-3xl"
+            />
+            <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center rounded-3xl px-7">
+              <h3 className="text-white text-4xl md:text-5xl font-bold text-center">
+                Let's <span className="text-accent">Collaborate</span> <br /> &
+                Create Something Big
+              </h3>
+              <p className="text-gray-400 mt-4 max-w-xl text-center">
+                To Collaborate with us, reach us out at iicbit@bitsindri.ac.in
+                or simply fill out the contact form
+              </p>
+              <Link
+                href="/Contact"
+                className={`mt-10 px-4 py-2 border border-neutral-700 rounded-full text-sm transition-colors duration-300 text-white hover:border-accent`}
+              >
+                Contact<span className="ml-2 animate-pulse">→</span>
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </section>

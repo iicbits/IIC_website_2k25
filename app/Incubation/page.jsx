@@ -1,5 +1,6 @@
 import { Instagram, Linkedin } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const founders = [
@@ -133,6 +134,35 @@ const page = () => {
               </div>
             </div>
           ))}
+        </div>
+      </div>
+
+      {/* Call to Action Button */}
+      <div className="max-w-7xl mx-auto mt-40 w-full h-[70vh] md:h-[60vh]">
+        <div className="relative w-full h-full">
+          <Image
+            src="/images/incub.png"
+            alt="Incubator"
+            width={500}
+            height={300}
+            className="w-full h-full object-cover rounded-3xl"
+          />
+          <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center rounded-3xl px-7">
+            <h3 className="text-white text-4xl md:text-5xl font-bold text-center">
+              Need <span className="text-accent">Incubation</span> <br />
+              Support?
+            </h3>
+            <p className="text-gray-400 mt-4 max-w-xl text-center">
+              Send your application at iicbit@bitsindri.ac.in or simply fill out
+              the contact form
+            </p>
+            <Link
+              href="/Contact"
+              className={`mt-10 px-4 py-2 border border-neutral-700 rounded-full text-sm transition-colors duration-300 text-white hover:border-accent`}
+            >
+              Contact<span className="ml-2 animate-pulse">→</span>
+            </Link>
+          </div>
         </div>
       </div>
     </section>

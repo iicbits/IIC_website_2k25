@@ -5,16 +5,16 @@ import React from "react";
 
 const JoinUs = () => {
   return (
-    <section className="bg-foreground min-h-screen flex items-center justify-center">
+    <section className="bg-foreground min-h-[80vh] md:min-h-screen flex items-center justify-center">
       <div className="absolute flex items-center justify-center flex-col z-10">
         <h4 className="font-dancingscript text-accent text-4xl mb-10">
           Registrations Ongoing.
         </h4>
-        <h1 className="font-calsans text-6xl leading-tight text-center">
+        <h1 className="font-calsans text-5xl md:text-6xl leading-tight text-center">
           Join an <span className="text-secondary">Exclusive</span> <br />{" "}
           Community of <span className="text-accent">Innovators</span>
         </h1>
-        <p className="text-center text-lg max-w-xl mt-4 text-secondary">
+        <p className="text-center text-sm md:text-lg max-w-xl mt-4 text-secondary">
           Join our private community to access discussions, job opportunities,
           and insights you won't find elsewhere.
         </p>
@@ -26,20 +26,20 @@ const JoinUs = () => {
           </button>
         </Link>
 
-        <div className="flex justify-center items-center flex-wrap gap-20 mt-12 font-semibold">
-          <div className="flex justify-center items-center flex-col gap-4 w-52 text-black">
+        <div className="flex justify-center items-center gap-4 md:gap-20 mt-12 font-semibold">
+          <div className="flex justify-center items-center flex-col gap-4 text-xs md:text-base w-28 md:w-52 text-black">
             <TicketCheck height={32} width={32} />
             <p className="text-center">
               Get access to the amazing community of innovators.
             </p>
           </div>
-          <div className="flex justify-center items-center flex-col gap-4 w-52">
+          <div className="flex justify-center items-center flex-col gap-4 text-xs md:text-base w-28 md:w-52">
             <Contact2 height={32} width={32} />
             <p className="text-center">
               Collaborate with industry experts and enhance skills.
             </p>
           </div>
-          <div className="flex justify-center items-center flex-col gap-4 w-52">
+          <div className="flex justify-center items-center flex-col gap-4 text-xs md:text-base w-28 md:w-52">
             <CheckCircle2 height={32} width={32} />
             <p className="text-center">
               Organise exclusive events and workshops.
@@ -48,7 +48,7 @@ const JoinUs = () => {
         </div>
       </div>
 
-      <div className="absolute w-full h-full flex flex-col justify-between">
+      <div className="absolute w-full h-[80vh] md:h-full flex flex-col justify-between">
         <div className="">
           <Image
             src="/images/bggrid.png"

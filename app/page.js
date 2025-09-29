@@ -12,13 +12,13 @@ export default function Home() {
     <>
       <Hero />
 
-      <div className="min-h-screen w-full px-4">
+      <div className="md:min-h-screen w-full px-4">
         <Image
           src="/images/incub.png"
-          alt="Description of image"
-          layout="responsive"
+          alt="Incubation Centre"
           width={700}
           height={400}
+          className="object-fit w-full"
         />
       </div>
       <IntroIIC />

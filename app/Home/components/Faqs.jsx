@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { Plus, Minus } from "lucide-react";
 
 const FAQComponent = () => {
-  const [openItems, setOpenItems] = useState(new Set([1])); // Speed question open by default
+  const [openItems, setOpenItems] = useState(new Set()); // Speed question open by default
 
   const faqData = [
     {

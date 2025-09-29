@@ -48,8 +48,10 @@ const Resources = () => {
     <div className="max-w-7xl mx-auto py-16 px-6">
       {/* Header */}
       <div className="text-center mb-16">
-        <div className="text-gray-500 text-base mb-4">(Training)</div>
-        <h2 className="text-6xl font-bold text-gray-900">Learning Resources</h2>
+        <div className="text-gray-500 text-base mb-4">(Notices)</div>
+        <h2 className="text-5xl md:text-6xl font-bold text-gray-900">
+          Opportunities
+        </h2>
       </div>
 
       {/* Awards List */}
@@ -99,7 +101,7 @@ const Resources = () => {
                 </div>
 
                 {/* Right: Company */}
-                <div className="w-48 flex-shrink-0 text-right">
+                <div className="hidden md:flexw-48 flex-shrink-0 text-right">
                   <span
                     className={`text-sm transition-colors duration-700 ${
                       hoveredIndex - 1 === index

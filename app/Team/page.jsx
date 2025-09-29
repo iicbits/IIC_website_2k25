@@ -1,13 +1,56 @@
 "use client";
 
 import Image from "next/image";
-import { Linkedin, Instagram, Twitter } from "lucide-react";
+import { Linkedin, Instagram, Twitter, Mail } from "lucide-react";
 import { useState } from "react";
 
 const TeamSection = () => {
   const [activeTeam, setActiveTeam] = useState("leadership");
 
-  const teams = {
+  const faculties = [
+    {
+      id: 1,
+      name: "Alex Kumongso",
+      role: "Founder & CEO",
+      image: "/images/team/myphoto.png",
+      social: {
+        email: "#",
+        linkedin: "#",
+      },
+    },
+    {
+      id: 2,
+      name: "Lisa Ningrum",
+      role: "Chief Technology Officer",
+      image: "/images/team/myphoto.png",
+      social: {
+        email: "#",
+        linkedin: "#",
+      },
+    },
+    {
+      id: 3,
+      name: "Ryan Wilujeng",
+      role: "Head of Operations",
+      image: "/images/team/myphoto.png",
+      social: {
+        email: "#",
+        linkedin: "#",
+      },
+    },
+    {
+      id: 4,
+      name: "Sarah Kumala",
+      role: "VP of Customer Success",
+      image: "/images/team/myphoto.png",
+      social: {
+        email: "#",
+        linkedin: "#",
+      },
+    },
+  ];
+
+  const students = {
     leadership: {
       name: "Leadership",
       members: [
@@ -17,9 +60,9 @@ const TeamSection = () => {
           role: "Founder & CEO",
           image: "/images/team/myphoto.png",
           social: {
+            email: "#",
             linkedin: "#",
             instagram: "#",
-            twitter: "#",
           },
         },
         {
@@ -28,9 +71,9 @@ const TeamSection = () => {
           role: "Chief Technology Officer",
           image: "/images/team/myphoto.png",
           social: {
+            email: "#",
             linkedin: "#",
             instagram: "#",
-            twitter: "#",
           },
         },
         {
@@ -39,9 +82,9 @@ const TeamSection = () => {
           role: "Head of Operations",
           image: "/images/team/myphoto.png",
           social: {
+            email: "#",
             linkedin: "#",
             instagram: "#",
-            twitter: "#",
           },
         },
         {
@@ -50,9 +93,9 @@ const TeamSection = () => {
           role: "VP of Customer Success",
           image: "/images/team/myphoto.png",
           social: {
+            email: "#",
             linkedin: "#",
             instagram: "#",
-            twitter: "#",
           },
         },
       ],
@@ -229,7 +272,7 @@ const TeamSection = () => {
 
           {/* Faculty Coordinators */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-36">
-            {teamMembers.map((member) => (
+            {faculties.map((member) => (
               <div
                 key={member.id}
                 className="group relative rounded-2xl overflow-hidden hover:bg-gray-800/60 transition-all duration-300"
@@ -260,25 +303,18 @@ const TeamSection = () => {
                   {/* Social Links - Visible on Hover */}
                   <div className="absolute top-4 right-4 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
                     <a
+                      href={member.social.email}
+                      className="w-8 h-8 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/20 transition-colors"
+                      aria-label={`${member.name} Twitter`}
+                    >
+                      <Mail size={14} className="text-white" />
+                    </a>
+                    <a
                       href={member.social.linkedin}
                       className="w-8 h-8 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/20 transition-colors"
                       aria-label={`${member.name} LinkedIn`}
                     >
                       <Linkedin size={14} className="text-white" />
-                    </a>
-                    <a
-                      href={member.social.instagram}
-                      className="w-8 h-8 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/20 transition-colors"
-                      aria-label={`${member.name} Instagram`}
-                    >
-                      <Instagram size={14} className="text-white" />
-                    </a>
-                    <a
-                      href={member.social.twitter}
-                      className="w-8 h-8 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/20 transition-colors"
-                      aria-label={`${member.name} Twitter`}
-                    >
-                      <Twitter size={14} className="text-white" />
                     </a>
                   </div>
                 </div>
@@ -288,7 +324,7 @@ const TeamSection = () => {
 
           {/* Team Filter Tabs */}
           <div className="flex flex-wrap justify-center lg:justify-start gap-2 mb-12">
-            {Object.entries(teams).map(([key, team]) => (
+            {Object.entries(students).map(([key, team]) => (
               <button
                 key={key}
                 onClick={() => setActiveTeam(key)}
@@ -309,7 +345,7 @@ const TeamSection = () => {
               key={activeTeam}
               className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 animate-fadeIn"
             >
-              {teams[activeTeam].members.map((member, index) => (
+              {students[activeTeam].members.map((member, index) => (
                 <div
                   key={member.id}
                   className="group relative bg-gray-900/50 rounded-2xl overflow-hidden hover:bg-gray-800/60 transition-all duration-300"
@@ -344,6 +380,13 @@ const TeamSection = () => {
                     {/* Social Links - Visible on Hover */}
                     <div className="absolute top-4 right-4 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
                       <a
+                        href={member.social.email}
+                        className="w-8 h-8 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/20 transition-colors"
+                        aria-label={`${member.name} Twitter`}
+                      >
+                        <Mail size={14} className="text-white" />
+                      </a>
+                      <a
                         href={member.social.linkedin}
                         className="w-8 h-8 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/20 transition-colors"
                         aria-label={`${member.name} LinkedIn`}
@@ -356,13 +399,6 @@ const TeamSection = () => {
                         aria-label={`${member.name} Instagram`}
                       >
                         <Instagram size={14} className="text-white" />
-                      </a>
-                      <a
-                        href={member.social.twitter}
-                        className="w-8 h-8 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/20 transition-colors"
-                        aria-label={`${member.name} Twitter`}
-                      >
-                        <Twitter size={14} className="text-white" />
                       </a>
                     </div>
                   </div>

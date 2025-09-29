@@ -15,7 +15,6 @@ const Navbar = () => {
     { name: "Incubation", href: "/Incubation" },
     { name: "Team", href: "/Team" },
     { name: "Gallery", href: "/Gallery" },
-    { name: "Resources", href: "/Resources" },
   ];
 
   const pathname = usePathname();
@@ -34,8 +33,8 @@ const Navbar = () => {
   }, [pathname]);
 
   return (
-    <header className="bg-foreground">
-      <div className="h-9 bg-neutral-700 flex">
+    <header className="bg-foreground z-50">
+      <div className="h-9 hidden md:flex bg-neutral-700">
         <div className="bg-foreground w-2/5 h-full rounded-tr-3xl"></div>
         <div className="bg-foreground h-full w-1/5">
           <div className="bg-neutral-700 w-full h-full rounded-b-2xl text-center text-sm font-semibold flex items-center text-white pl-12">
@@ -119,11 +118,11 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <div
-          className={`md:hidden absolute top-full left-0 right-0 bg-foreground transition-all duration-300 overflow-hidden ${
+          className={`md:hidden absolute z-50 top-full left-0 right-0 bg-foreground transition-all duration-300 overflow-hidden ${
             isMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
           }`}
         >
-          <nav className="flex flex-col py-4">
+          <nav className="flex flex-col justify-center items-center py-4">
             {navItems.map((item, index) => (
               <Link
                 key={index}
@@ -141,7 +140,7 @@ const Navbar = () => {
             <Link
               href="/Contact"
               onClick={() => setIsMenuOpen(false)}
-              className={`mx-8 mt-4 px-4 py-2 border-2 border-neutral-700 rounded-full text-sm text-center transition-colors duration-300 ${
+              className={`w-3/4 mx-8 mt-4 px-4 py-2 border-2 border-neutral-700 rounded-full text-sm text-center transition-colors duration-300 ${
                 activeItem === "Contact"
                   ? "text-orange-500 bg-orange-100 border-orange-500"
                   : "text-white bg-neutral-600 hover:bg-neutral-500"

@@ -41,14 +41,14 @@ const Events = () => {
   };
 
   return (
-    <section className="min-h-screen py-12 mt-10">
+    <section className="min-h-screen py-12 md:mt-10">
       <div className="text-gray-500 text-base mb-4 text-center">(Events)</div>
-      <h1 className="text-6xl font-calsans font-bold mb-8 text-center">
+      <h1 className="text-5xl md:text-6xl font-calsans font-bold mb-8 text-center">
         Our Initiatives
       </h1>
-      <div className="flex gap-6 max-w-7xl mx-auto p-6">
+      <div className="flex flex-col md:flex-row gap-6 max-w-7xl mx-auto p-6">
         {/* Left Card */}
-        <div className="bg-gray-900 text-white rounded-3xl p-8 flex flex-col justify-between min-h-[500px] w-80 flex-shrink-0">
+        <div className="bg-gray-900 text-white w-full md:w-80 rounded-3xl p-8 flex flex-col justify-between min-h-[500px] flex-shrink-0">
           <div className="space-y-12">
             <div>
               <div className="text-6xl font-bold mb-2">35+</div>
