@@ -52,7 +52,7 @@ const Navbar = () => {
             alt="BIT Logo"
             width={100}
             height={100}
-            className=""
+            className="w-auto h-auto"
           />
           <div className="w-[2px] h-1/2 bg-accent"></div>
           <Image
@@ -60,7 +60,7 @@ const Navbar = () => {
             alt="IIC Logo"
             width={100}
             height={100}
-            className="ml-2"
+            className="ml-2 w-auto h-auto"
           />
         </div>
 

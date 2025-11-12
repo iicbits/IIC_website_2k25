@@ -54,6 +54,7 @@ const JoinUs = () => {
         <div className="">
           <Image
             src="/images/bggrid.png"
+            alt="image"
             width={500}
             height={500}
             className="object-fit w-full rotate-180"
@@ -62,6 +63,7 @@ const JoinUs = () => {
         <div className="">
           <Image
             src="/images/bggrid.png"
+            alt="image"
             width={500}
             height={500}
             className="object-fit w-full"
