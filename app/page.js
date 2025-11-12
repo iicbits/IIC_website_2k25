@@ -20,6 +20,7 @@ export default function Home() {
           width={700}
           height={400}
           className="object-fit w-full"
+          priority
         />
       </div>
       <IntroIIC />

@@ -15,7 +15,7 @@ const TeamSection = () => {
       id: 1,
       name: "Alex Kumongso",
       role: "Founder & CEO",
-      image: "/images/team/myphoto.png",
+      image: "/team/myphoto.png",
       social: {
         email: "#",
         linkedin: "#",
@@ -25,7 +25,7 @@ const TeamSection = () => {
       id: 2,
       name: "Lisa Ningrum",
       role: "Chief Technology Officer",
-      image: "/images/team/myphoto.png",
+      image: "/team/myphoto.png",
       social: {
         email: "#",
         linkedin: "#",
@@ -35,7 +35,7 @@ const TeamSection = () => {
       id: 3,
       name: "Ryan Wilujeng",
       role: "Head of Operations",
-      image: "/images/team/myphoto.png",
+      image: "/team/myphoto.png",
       social: {
         email: "#",
         linkedin: "#",
@@ -45,7 +45,7 @@ const TeamSection = () => {
       id: 4,
       name: "Sarah Kumala",
       role: "VP of Customer Success",
-      image: "/images/team/myphoto.png",
+      image: "/team/myphoto.png",
       social: {
         email: "#",
         linkedin: "#",
@@ -61,7 +61,7 @@ const TeamSection = () => {
           id: 1,
           name: "Alex Kumongso",
           role: "Founder & CEO",
-          image: "/images/team/myphoto.png",
+          image: "/team/myphoto.png",
           social: {
             email: "#",
             linkedin: "#",
@@ -72,7 +72,7 @@ const TeamSection = () => {
           id: 2,
           name: "Lisa Ningrum",
           role: "Chief Technology Officer",
-          image: "/images/team/myphoto.png",
+          image: "/team/myphoto.png",
           social: {
             email: "#",
             linkedin: "#",
@@ -83,7 +83,7 @@ const TeamSection = () => {
           id: 3,
           name: "Ryan Wilujeng",
           role: "Head of Operations",
-          image: "/images/team/myphoto.png",
+          image: "/team/myphoto.png",
           social: {
             email: "#",
             linkedin: "#",
@@ -94,7 +94,7 @@ const TeamSection = () => {
           id: 4,
           name: "Sarah Kumala",
           role: "VP of Customer Success",
-          image: "/images/team/myphoto.png",
+          image: "/team/myphoto.png",
           social: {
             email: "#",
             linkedin: "#",
@@ -481,50 +481,3 @@ const TeamSection = () => {
 };
 
 export default TeamSection;
-
-export const teamMembers = [
-  {
-    id: 1,
-    name: "John Smith",
-    role: "CEO",
-    image: "/images/team/myphoto.png",
-    social: {
-      linkedin: "https://www.linkedin.com/in/johnsmith",
-      instagram: "https://www.instagram.com/johnsmith",
-      twitter: "https://twitter.com/johnsmith",
-    },
-  },
-  {
-    id: 2,
-    name: "Jane Doe",
-    role: "Lead Developer",
-    image: "/images/team/myphoto.png",
-    social: {
-      linkedin: "https://www.linkedin.com/in/janedoe",
-      instagram: "https://www.instagram.com/janedoe",
-      twitter: "https://twitter.com/janedoe",
-    },
-  },
-  {
-    id: 3,
-    name: "Peter Jones",
-    role: "Product Manager",
-    image: "/images/team/myphoto.png",
-    social: {
-      linkedin: "https://www.linkedin.com/in/peterjones",
-      instagram: "https://www.instagram.com/peterjones",
-      twitter: "https://twitter.com/peterjones",
-    },
-  },
-  {
-    id: 4,
-    name: "Emily White",
-    role: "UI/UX Designer",
-    image: "/images/team/myphoto.png",
-    social: {
-      linkedin: "https://www.linkedin.com/in/emilywhite",
-      instagram: "https://www.instagram.com/emilywhite",
-      twitter: "https://twitter.com/emilywhite",
-    },
-  },
-];

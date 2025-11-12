@@ -1,9 +1,9 @@
 "use client";
 import { useState, useEffect } from "react";
-import Image from "next/image";
 
 export default function Testimonials() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
 
   const testimonials = [
     {
@@ -11,7 +11,7 @@ export default function Testimonials() {
       name: "Guy Hawkins",
       role: "Infrastructure at Flo",
       text: "The intuitive interface and advanced security measures of Securify make it the ideal solution for our company's cybersecurity needs.",
-      avatar: "/images/incub.png",
+      avatar: "GH",
       bgColor: "bg-pink-500",
     },
     {
@@ -30,7 +30,38 @@ export default function Testimonials() {
       avatar: "FM",
       bgColor: "bg-gray-500",
     },
+    {
+      id: 4,
+      name: "Sarah Johnson",
+      role: "Security Lead at TechCorp",
+      text: "Since implementing Securify, we've noticed a significant improvement in our overall security posture. It's a reliable and efficient platform.",
+      avatar: "SJ",
+      bgColor: "bg-purple-500",
+    },
+    {
+      id: 5,
+      name: "Michael Chen",
+      role: "CTO at DataFlow",
+      text: "I appreciate the proactive approach of Securify in addressing emerging threats. It's a proactive solution that keeps our business safe.",
+      avatar: "MC",
+      bgColor: "bg-green-500",
+    },
   ];
+
+  useEffect(() => {
+    // Handle screen size detection
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    // Set initial value
+    handleResize();
+
+    // Add event listener
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -41,6 +72,12 @@ export default function Testimonials() {
   }, [testimonials.length]);
 
   const getVisibleCards = () => {
+    // For mobile, return only the current card
+    if (isMobile) {
+      return [{ ...testimonials[currentIndex], position: 0 }];
+    }
+
+    // For desktop, return 3 cards
     const cards = [];
     for (let i = -1; i <= 1; i++) {
       const index =
@@ -51,9 +88,9 @@ export default function Testimonials() {
   };
 
   return (
-    <div className="md:min-h-screen flex items-center flex-col justify-center p-8 overflow-hidden">
-      <h4 className="text-secondary text-center mb-2">(Testimonials)</h4>
-      <h1 className="text-5xl md:text-6xl font-bold text-center mb-7">
+    <div className="md:min-h-screen flex items-center flex-col justify-center px-2 my-10 md:my-0 overflow-hidden">
+      <h4 className="text-gray-400 text-center mb-2">(Testimonials)</h4>
+      <h1 className="text-5xl md:text-6xl font-bold text-center md:mb-7">
         Testimonials
       </h1>
 
@@ -69,35 +106,25 @@ export default function Testimonials() {
               >
                 <div
                   className={`${
-                    isCenter ? "border-accent" : " border-zinc-400"
-                  } bg-foreground rounded-2xl p-8 border shadow-2xl flex flex-col`}
+                    isCenter ? "border-accent" : "border-zinc-400"
+                  } bg-black rounded-2xl p-8 md:border-2 shadow-2xl flex flex-col`}
                 >
                   <div className="flex items-center gap-4">
                     <div
-                      className={`w-20 h-20 ${testimonial.bgColor} rounded-full flex items-center justify-center font-semibold text-lg`}
+                      className={`w-20 h-20 ${testimonial.bgColor} rounded-full flex items-center justify-center font-semibold text-lg text-white`}
                     >
-                      {testimonial.avatar.length > 2 ? (
-                        <Image
-                          src={testimonial.avatar}
-                          alt={testimonial.name}
-                          width={100}
-                          height={100}
-                          className="rounded-full w-full h-full object-cover"
-                        />
-                      ) : (
-                        testimonial.avatar
-                      )}
+                      {testimonial.avatar}
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg">
+                      <h3 className="font-semibold text-white text-lg">
                         {testimonial.name}
                       </h3>
-                      <p className="text-gray-700 text-sm">
+                      <p className="text-gray-400 text-sm">
                         {testimonial.role}
                       </p>
                     </div>
                   </div>
-                  <p className="text-gray-600 border-t  text-base leading-relaxed mt-4 pt-4 flex-grow">
+                  <p className="text-gray-400 border-t border-gray-700 text-base leading-relaxed mt-4 pt-4 flex-grow">
                     "{testimonial.text}"
                   </p>
                 </div>
@@ -106,7 +133,7 @@ export default function Testimonials() {
           })}
         </div>
 
-        <div className="flex justify-center gap-2 mt-8">
+        <div className="flex justify-center gap-2 md:mt-8">
           {testimonials.map((_, index) => (
             <button
               key={index}
