@@ -7,7 +7,7 @@ import { LuTicketCheck } from "react-icons/lu";
 
 const JoinUs = () => {
   return (
-    <section className="bg-foreground min-h-[80vh] md:min-h-screen flex items-center justify-center">
+    <section className="bg-foreground min-h-[80vh] md:min-h-screen flex items-center justify-center bg-gradient-to-t from-foreground via-background to-foreground">
       <div className="absolute flex items-center justify-center flex-col z-10">
         <h4 className="font-dancingscript text-accent text-4xl mb-10">
           Registrations Ongoing.

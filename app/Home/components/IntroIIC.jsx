@@ -41,7 +41,9 @@ const IntroIIC = () => {
         </p>
       </div> */}
       <div className="mt-20 text-center">
-        <h1 className="text-4xl font-bold font-dancingscript">Recognised by</h1>
+        <h1 className="text-4xl font-bold font-dancingscript">
+          Patronages and Recognitions
+        </h1>
         <div className="flex flex-wrap justify-center items-center gap-10 mt-10 md:mt-4">
           <p className=" w-48">
             <Image

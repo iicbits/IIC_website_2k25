@@ -11,6 +11,7 @@ const Navbar = () => {
 
   const navItems = [
     { name: "About Us", href: "/About" },
+    { name: "BITS TEXMiN", href: "/BITS_TEXMiN" },
     { name: "Initiatives", href: "/Initiatives" },
     { name: "Incubation", href: "/Incubation" },
     { name: "Team", href: "/Team" },
@@ -47,21 +48,29 @@ const Navbar = () => {
 
       <div className="pr-8 md:px-16 flex justify-between items-center relative">
         <div className="flex items-center h-20">
-          <Image
-            src="/images/logos/BIT logo.png"
-            alt="BIT Logo"
-            width={100}
-            height={100}
-            className="w-16 md:w-auto h-auto"
-          />
+          <a
+            href="https://www.bitsindri.ac.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/images/logos/BIT logo.png"
+              alt="BIT Logo"
+              width={100}
+              height={100}
+              className="w-16 md:w-auto h-auto"
+            />
+          </a>
           <div className="w-[1px] md:w-[2px] h-1/3 md:h-1/2 bg-accent"></div>
-          <Image
-            src="/images/logos/IIC logo.png"
-            alt="IIC Logo"
-            width={100}
-            height={100}
-            className="ml-2 w-20 md:w-auto h-auto"
-          />
+          <Link href="/" className="ml-2">
+            <Image
+              src="/images/logos/IIC logo.png"
+              alt="IIC Logo"
+              width={100}
+              height={100}
+              className="ml-2 w-20 md:w-auto h-auto"
+            />
+          </Link>
         </div>
 
         {/* Desktop Navigation */}

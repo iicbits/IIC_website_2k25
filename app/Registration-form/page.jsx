@@ -83,11 +83,11 @@ const IICRegistrationForm = () => {
           </div>
         </div>
       ) : (
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           {/* Header */}
           <div className="text-center mb-10">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              IIC Registration
+              Registration Form
             </h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Join the Institution's Innovation Council and be part of fostering

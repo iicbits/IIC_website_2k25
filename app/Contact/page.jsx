@@ -38,6 +38,7 @@ const page = () => {
   return (
     <section className="w-full">
       <div className="bg-black relative px-4 md:px-12 lg:px-28 py-12 mx-4 my-4 rounded-2xl min-h-screen flex items-center">
+        <div className="absolute inset-0 z-10 w-full h-full rounded-2xl bg-gradient-to-t from-black via-black/40 to-black"></div>
         <div className="absolute inset-0 z-0">
           <Image
             src="/images/incub.png"
@@ -46,7 +47,7 @@ const page = () => {
             className="opacity-40 rounded-2xl object-cover"
           />
         </div>
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center w-full z-10">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center w-full z-20">
           {/* Left Section */}
           <div className="text-white space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">

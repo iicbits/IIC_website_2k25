@@ -29,9 +29,9 @@ const Hero = () => {
           <br />
           <span className="text-secondary">Impacting the</span> Future{" "}
         </h2>
-
-        <p className="text-sm md:text-base max-w-xl text-secondary mb-12">
-          We empower students and startups to transform visionary ideas into impactful solutions through mentorship, resources, and real world opportunities, turning creativity into lasting change.
+        <p className="text-sm md:text-base max-w-xl text-gray-900 mb-12">
+          We make it easy for startups to launch, grow, and scale with clean,
+          conversion focused designs—no delays, no drama.
         </p>
 
         <button className="flex items-center space-x-2 px-5 py-2 bg-neutral-700 rounded-full hover:bg-neutral-600 text-primary transition-colors duration-300">
@@ -39,7 +39,7 @@ const Hero = () => {
           <span className="text-xl">→</span>
         </button>
       </main>
-      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-foreground via-[#f0eeee]/50 to-[#f0eeee]/50 -z-10"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-foreground via-[#f0eeee]/50 to-black/30 -z-10"></div>
       <div className="absolute top-0 left-0 w-full h-full -z-20">
         <Image
           src="/home/Banner.webp"
