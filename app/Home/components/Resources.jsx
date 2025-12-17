@@ -45,7 +45,7 @@ const Resources = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto py-16 px-6">
+    <div className="max-w-7xl overflow-hidden mx-auto py-16 px-6">
       {/* Header */}
       <div className="text-center mb-16">
         <div className="text-gray-500 text-base mb-4">(Notices)</div>
@@ -54,7 +54,7 @@ const Resources = () => {
         </h2>
       </div>
 
-      {/* Awards List */}
+      {/* Opportunities list */}
       <div className="space-y-0 border-t-[0.5px] border-secondary">
         {awards.map((award, index) => (
           <a
@@ -89,7 +89,9 @@ const Resources = () => {
 
                 {/* Center: Award Title */}
                 <div className="flex-1 text-center px-8">
-                  <span className={`text-lg transition-all duration-700 `}>
+                  <span
+                    className={`text-sm md:text-lg transition-all duration-700 `}
+                  >
                     <span
                       className={`${
                         hoveredIndex - 1 === index ? "text-accent" : ""
@@ -101,7 +103,7 @@ const Resources = () => {
                 </div>
 
                 {/* Right: Company */}
-                <div className="hidden md:flexw-48 flex-shrink-0 text-right">
+                <div className="hidden md:flex w-48 flex-shrink-0 text-right">
                   <span
                     className={`text-sm transition-colors duration-700 ${
                       hoveredIndex - 1 === index
@@ -115,7 +117,7 @@ const Resources = () => {
 
                 {/* Orange Circle - Only visible on hover of first item */}
 
-                <div className="absolute right-[20%] top-0 animate-[bounce_3s_ease-in-out_infinite]">
+                <div className="hidden md:block absolute right-[20%] top-0 animate-[bounce_3s_ease-in-out_infinite]">
                   <div
                     className={`bg-accent text-white rounded-full w-20 h-20 flex items-center justify-center font-bold text-lg transition-all duration-300 ease-in ${
                       hoveredIndex - 1 === index ? "opacity-100" : "opacity-0"

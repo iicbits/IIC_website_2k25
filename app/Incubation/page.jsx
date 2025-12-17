@@ -8,35 +8,112 @@ import React from "react";
 
 const founders = [
   {
-    name: "Franklin Clinton",
-    bio: "Franklin Clinton is a visual designer focused on crafting bold, functional design systems. He works with creative teams and startups to build standout brands and seamless digital experiences. Based in London, he balances clarity with character — and enjoys experimenting with motion design and interactive visuals in his spare time.",
+    name: "Khwaab  Publication - “ Let You Writings Flyyy! ”",
+    bio: "Established strategic alliances with international and domestic partners to foster innovation in the printing and publishing industry.",
     image: "/images/startup.png",
     socials: {
       LinkedIn: "https://linkedin.com/",
       instagram: "https://instagram.com/",
     },
     experience: [
-      { title: "Founder at Agero", years: "2024-Now" },
-      { title: "Brand Designer at Google", years: "2023-2024" },
-      { title: "Web Designer at Shopify", years: "2018-2023" },
-      { title: "Junior Designer at Meta", years: "2015-2018" },
+      { title: "Founder & CEO", years: "Mr. Kunal Sonkar" },
+      { title: "Incorporated", years: "June, 2020" },
+      { title: "Branch", years: "MINING ENGINEERING DEPARTMENT, 2K23" },
     ],
   },
   {
-    name: "Franklin Clinton",
-    bio: "Franklin Clinton is a visual designer focused on crafting bold, functional design systems. He works with creative teams and startups to build standout brands and seamless digital experiences. Based in London, he balances clarity with character — and enjoys experimenting with motion design and interactive visuals in his spare time.",
+    name: "VoWHELM - “ Ensure Your Survival in case of Accident ”",
+    bio: "VoWHELM is an advanced IoT-enabled smart safety helmet designed to revolutionize two-wheeler accident response. By leveraging real-time crash detection, and GPS-based hospital connectivity, significantly improving survival rates.",
     image: "/images/startup.png",
     socials: {
       LinkedIn: "https://linkedin.com/",
       instagram: "https://instagram.com/",
     },
     experience: [
-      { title: "Founder at Agero", years: "2024-Now" },
-      { title: "Brand Designer at Google", years: "2023-2024" },
-      { title: "Web Designer at Shopify", years: "2018-2023" },
-      { title: "Junior Designer at Meta", years: "2015-2018" },
+      { title: "Founder & CEO", years: "Mr. Syed Adnan Ahmad" },
+      { title: "Incorporated ", years: "April, 2025" },
+      { title: "Branch", years: "PRODUCTION & INDUSTRIAL ENGG. , 2K22" },
     ],
   },
+  {
+    name: "QR CELEBRTIONS - “Scan, Plan and Celebrate”",
+    bio: "QR Weds is a one-stop wedding solution that makes wedding planning easy and smart. From cards, vehicles, and catering to photography and decoration, we handle it all. With our unique QR smart cards, guests can access all wedding details, live location, and gift options with just one scan — blending tradition with technology.",
+    image: "/images/startup.png",
+    socials: {
+      LinkedIn: "https://linkedin.com/",
+      instagram: "https://instagram.com/",
+    },
+    experience: [
+      { title: "Founder & CEO", years: "Mr. Aryan Ray" },
+      { title: "Incorporated ", years: "5th may 2025" },
+      { title: "Branch", years: "MECHANICAL ENGG. DEPARTMENT, 2K23" },
+    ],
+  },
+  {
+    name: "YuMedic(Milo Doctor)",
+    bio: "Yumedics is a fast-growing skincare brand that uses innovative and science-backed ingredients to improve, protect, and enhance the natural  glow of the skin.The brand offers a wide range of products, including face creams, acne treatment brightening serums, sunscreens, and advanced hair care solutions.",
+    image: "/images/startup.png",
+    socials: {
+      LinkedIn: "https://linkedin.com/",
+      instagram: "https://instagram.com/",
+    },
+    experience: [
+      { title: "Founder & CEO", years: "Mr. Karan Raj Mehta" },
+      { title: "Batch", years: "2K16" },
+    ],
+  },
+  {
+    name: "Sampurn Krishi Utthaan Foundation",
+    bio: "•	Sampurn Krishi Utthaan Foundation, registered as Section 8 company in Ranchi, Jharkhand.Connected with farmers of Jharkhand, Bihar, Odissa.	Promoting Natural / Organic farming.	Right now having MOU with Unmukt Urja Pvt LTD as a social partner to professionalize thousands of Paddy growers towards LEISA (low external input sustainable agriculture). The agri-wastes from Paddy farms will be converted to Bio-Crude. That can be used in making of Bio-fuel.",
+    image: "/images/startup.png",
+    socials: {
+      LinkedIn: "https://linkedin.com/",
+      instagram: "https://instagram.com/",
+    },
+    experience: [
+      { title: "Founder & CEO", years: "Mr. Ravi Singh Choudhary" },
+      { title: "Batch", years: "2K16" },
+    ],
+  },
+  {
+    name: "First Ad",
+    bio: "•	We are heading with the vision of making the world’s largest digitalized advertising ecosystem.	We facilitate creative methods to reach target audience. We connect the most compatible social media influencer using our predictive methods.",
+    image: "/images/startup.png",
+    socials: {
+      LinkedIn: "https://linkedin.com/",
+      instagram: "https://instagram.com/",
+    },
+    experience: [
+     { title: "Founder & CEO", years: "Mr. Milan Kashyap & Mr. Shanu Anand" },
+      { title: "Batch", years: "2K18" },
+    ],
+  },
+  {
+    name: " Successpapa (Udany Pvt Ltd)",
+    bio: "•	Enhance education quality in India, especially in remote areas. Provide affordable educational facilities to everyone.	Foster literacy, skills, and competitive abilities in students.	Encourage regular newspaper reading and improve general awareness and aptitude.",
+    image: "/images/startup.png",
+    socials: {
+      LinkedIn: "https://linkedin.com/",
+      instagram: "https://instagram.com/",
+    },
+    experience: [
+      { title: "Founder & CEO", years: "Mr. Divyanshu Sinha" },
+      { title: "Batch", years: "2K16" },
+    ],
+  },
+  {
+    name: "Urja Viable solutions",
+    bio: "The company's mission is to generate energy from waste to create a sustainable future. Their work includes: Renewable energy,	Suggesting the best renewable energy source for a customer's needs and availability,	Installation,	Finding the best company to install the renewable energy source, considering budget, climate, region, and other factors,	Project management,	Making sure all the prerequisites are in place for a project, from installation to commissioning",
+    image: "/images/startup.png",
+    socials: {
+      LinkedIn: "https://linkedin.com/",
+      instagram: "https://instagram.com/",
+    },
+    experience: [
+      { title: "Founder & CEO", years: "Mr. Kumar Aryan & Mr. Adarsh Tirkey" },
+    ],
+  },
+  
 ];
 
 const page = () => {
@@ -47,16 +124,15 @@ const page = () => {
           <h2 className="font-calsans text-5xl md:text-5xl lg:text-7xl md:leading-loose mb-8">
             Empowering{" "}
             <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700"></span>{" "}
-            <span className="text-accent">Design</span>
+            <span className="text-accent">Startups</span>
             <br />
-            <span className="text-secondary">for</span>{" "}
+            <span className="text-secondary">Building</span>{" "}
             <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700"></span>{" "}
-            Design Startups
+            Entrepreneurs for Tomorrow 
           </h2>
 
           <p className="text-sm md:text-base max-w-xl text-secondary mb-12">
-            We make it easy for startups to launch, grow, and scale with clean,
-            conversion focused designs—no delays, no drama.
+            Our incubation program supports student led startups at every stage helping them refine ideas, build prototypes, and move toward real market validation. Several startups from BIT Sindri have already secured seats in our incubation centre, gaining access to mentorship, resources, and a growth focused environment. We aim to strengthen both emerging and established startups as they shape impactful entrepreneurial journeys.
           </p>
 
           <button className="flex items-center space-x-2">
@@ -142,24 +218,23 @@ const page = () => {
       <div className="mx-2 md:mx-4 mt-40 h-[70vh] md:h-[60vh]">
         <div className="relative w-full h-full">
           <Image
-            src="/images/incub.png"
+            src="/incubation/incubationCTA.webp"
             alt="Incubator"
             width={500}
             height={300}
             className="w-full h-full object-cover rounded-3xl"
           />
-          <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center rounded-3xl px-7">
+          <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center rounded-3xl px-7">
             <h3 className="text-white text-4xl md:text-5xl font-bold text-center">
-              Need <span className="text-accent">Incubation</span> <br />
-              Support?
+              Looking to Get Your <span className="text-accent">Startup</span> <br />
+              Incubated?
             </h3>
             <p className="text-gray-400 mt-4 max-w-xl text-center">
-              Send your application at iicbit@bitsindri.ac.in or simply fill out
-              the contact form
+              Reach out to us at iicbits@bitsindri.ac.in or simply fill out the contact form to begin your incubation journey.
             </p>
             <Link
               href="/Contact"
-              className={`mt-10 px-4 py-2 border border-neutral-700 rounded-full text-sm transition-colors duration-300 text-white hover:border-accent`}
+              className={`mt-10 px-4 py-2 border border-neutral-400 rounded-full text-sm transition-colors duration-300 text-white hover:border-accent`}
             >
               Contact<span className="ml-2 animate-pulse">→</span>
             </Link>

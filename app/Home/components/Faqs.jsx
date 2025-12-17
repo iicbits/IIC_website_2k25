@@ -9,40 +9,101 @@ const FAQComponent = () => {
   const faqData = [
     {
       id: 0,
-      question: "What is the Entrepreneurship Cell (E-Cell)?",
+      question: "What is the primary objective of the Institution Innovation Council (IIC)?",
       answer:
-        "The E-Cell is a non-profit, student-run body within the college that aims to foster an entrepreneurial mindset among students. We provide a platform for aspiring entrepreneurs to develop their ideas, gain practical skills, and connect with a supportive community and industry experts.",
+        "The primary objective of IIC is to foster a vibrant culture of innovation and entrepreneurship within the institution, offering guidance and support for idea generation, incubation, and startup launch.",
     },
     {
       id: 1,
-      question: "What are the benefits of joining the E-Cell?",
+      question: "Who can become a member of the IIC?",
       answer:
-        "Joining the E-Cell offers a range of benefits. You get access to exclusive workshops, seminars, and guest lectures from successful entrepreneurs. It's a great opportunity to enhance your leadership, problem-solving, and networking skills while getting a head start on building your own venture.",
+        "Any student, faculty, or staff member of the institution interested in innovation, entrepreneurship, or startup activities can become a member of the IIC.",
     },
     {
       id: 2,
-      question: "What kind of activities does the E-Cell organize?",
+      question: "What roles and responsibilities do IIC members have?",
       answer:
-        "We organize a variety of events, including business plan competitions, hackathons, pitch sessions, and startup weekends. We also host guest lectures, workshops on topics like marketing and finance, and provide mentorship to help students turn their ideas into reality. ",
+        "IIC members participate in innovation activities, attend workshops and seminars, contribute to idea generation, help organize events, and may mentor or guide others depending on their expertise.",
     },
     {
       id: 3,
-      question: "How can I get my startup idea funded?",
+      question: "How does IIC help with protecting intellectual property (IP)?",
       answer:
-        "The E-Cell provides several pathways for funding. We connect promising student startups with angel investors and venture capitalists. We also help you prepare for and participate in business plan competitions where you can win seed funding. Additionally, we guide you on how to apply for various government grants and other funding schemes.",
+        "IIC conducts IP awareness programs, provides guidance on patent filing processes, and connects innovators with IP experts to protect inventions and innovations.",
     },
     {
       id: 4,
-      question: "Do I need to have a business idea to join the E-Cell?",
+      question: "What industries or sectors does IIC collaborate with?",
       answer:
-        "No, you don't! The E-Cell is open to all students, regardless of their background or whether they have a business idea. We believe that an entrepreneurial mindset is valuable in any career path. Our goal is to help you develop skills like critical thinking and innovation that will be useful in any professional setting.",
+        "IIC collaborates with a variety of industries, business incubators, venture capital firms, and innovation networks to provide students and faculty with exposure and opportunities.",
     },
     {
       id: 5,
+      question: "Does IIC offer training or support for entrepreneurial skills?",
+      answer:
+        "Yes, IIC organizes training sessions on business model development, design thinking, pitching, leadership, and other entrepreneurial skills to help members develop as innovators.",
+    },
+    {
+      id: 6,
+      question: "How are innovative ideas selected for incubation?",
+      answer:
+        "Ideas are typically selected through structured competitions, hackathons, or proposal submissions. Selection is based on originality, feasibility, and potential societal or commercial impact.",
+    },
+    {
+      id: 7,
+      question: "Can I participate in national and international innovation competitions through IIC?",
+      answer:
+        "Yes, IIC facilitates participation in national and international competitions, providing guidance, mentorship, and sometimes funding support for travel or project development.",
+    },
+    {
+      id: 8,
+      question: "How is IIC different from other student clubs?",
+      answer:
+        "IIC is an official council recognized by the Ministry of Education, with structured processes and direct links to national innovation networks, startup programs, and government-supported schemes.",
+    },
+    {
+      id: 9,
+      question: "What kind of recognition or rewards does IIC offer?",
+      answer:
+        "IIC may offer certificates, cash prizes, incubation support, and opportunities for further development and commercialization for outstanding innovators and entrepreneurs.",
+    },
+    {
+      id: 10,
+      question: "What is the Institution Innovation Council (IIC)?",
+      answer:
+        "The IIC is a dedicated council established within the institution to nurture innovation and entrepreneurial spirit among students, faculty, and staff by providing resources, mentorship, and opportunities to develop ideas and launch startups.",
+    },
+    {
+      id: 11,
+      question: "What are the benefits of joining the IIC?",
+      answer:
+        "Members of IIC gain access to expert guidance, networking events, workshops, incubation support, and startup competitions—enabling them to build entrepreneurial skills and take innovative ideas towards market success.",
+    },
+    {
+      id: 12,
+      question: "What kind of activities does the IIC organize?",
+      answer:
+        "IIC regularly organizes innovation workshops, hackathons, guest lectures, startup bootcamps, idea challenges, business plan contests, and interactive sessions with industry leaders.",
+    },
+    {
+      id: 13,
+      question: "How can I get my startup idea funded?",
+      answer:
+        "IIC helps members prepare project proposals and connects them with potential investors, incubators, or institutional funding schemes. Funding is granted based on the merit and feasibility of the startup idea.",
+    },
+    {
+      id: 14,
+      question: "Do I need to have a business idea to join the IIC?",
+      answer:
+        "No, it is not mandatory to have a business idea to become a member of IIC. Anyone interested in entrepreneurship and innovation is welcome to join and develop new ideas after becoming a member.",
+    },
+    {
+      id: 15,
       question: "How can I become a member?",
       answer:
-        "Becoming a member is easy. Keep an eye out for our recruitment drives, which are usually held at the beginning of each academic year. You can also follow our social media channels or check the college's official notice board for announcements. Feel free to contact the E-Cell team for more information.",
+        "Interested individuals can register online through the institution’s official IIC portal or participate during scheduled membership drives. Membership is open to students, faculty, and staff passionate about innovation and entrepreneurship.",
     },
+    
   ];
 
   const toggleItem = (id) => {

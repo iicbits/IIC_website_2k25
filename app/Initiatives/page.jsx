@@ -53,18 +53,16 @@ const page = () => {
       <div className="min-h-[60vh] bg-foreground">
         <main className="flex flex-col items-center justify-center text-center py-20 px-4 md:px-8 lg:px-16">
           <h2 className="font-calsans text-5xl md:text-5xl lg:text-7xl md:leading-loose mb-8">
-            Empowering{" "}
+            Where Ideas{" "}
             <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700"></span>{" "}
-            <span className="text-accent">Design</span>
+            <span className="text-accent">Compete</span>
             <br />
-            <span className="text-secondary">for</span>{" "}
             <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700"></span>{" "}
-            Design Startups
+            Collaborate & Come Alive
           </h2>
 
           <p className="text-sm md:text-base max-w-xl text-secondary mb-12">
-            We make it easy for startups to launch, grow, and scale with clean,
-            conversion focused designs—no delays, no drama.
+            Our initiatives bring together innovation challenges, hackathons, workshops, and real world problem solving to shape the next generation of innovators. 
           </p>
 
           <button className="flex items-center space-x-2">
@@ -148,13 +146,13 @@ const page = () => {
         <div className="mx-auto mt-40 w-full h-[70vh] md:h-[60vh]">
           <div className="relative w-full h-full">
             <Image
-              src="/images/incub.png"
+              src="/events/EventCTA.webp"
               alt="Incubator"
               width={500}
               height={300}
               className="w-full h-full object-cover rounded-3xl"
             />
-            <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center rounded-3xl px-6">
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center rounded-3xl px-6">
               <h3 className="text-white text-4xl md:text-5xl font-bold text-center">
                 Let's <span className="text-accent">Collaborate</span> <br /> &
                 Create Something Big

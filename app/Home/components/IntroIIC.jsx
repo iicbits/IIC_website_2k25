@@ -16,6 +16,7 @@ const IntroIIC = () => {
         collaboration, and the development of groundbreaking ideas. Join us in
         our journey to inspire and empower the next generation of innovators!
       </p>
+
       {/* <div className="flex justify-center flex-wrap max-w-xl gap-4 mt-12">
         <p className="bg-secondary text-sm text-white rounded-2xl px-4 py-2">
           Entrepreneurship
@@ -43,7 +44,9 @@ const IntroIIC = () => {
         </p>
       </div> */}
       <div className="mt-20 text-center">
-        <h1 className="text-4xl font-bold font-dancingscript">Recognised by</h1>
+        <h1 className="text-4xl font-bold font-dancingscript">
+          Patronages and Recognitions
+        </h1>
         <div className="flex flex-wrap justify-center items-center gap-10 mt-10 md:mt-4">
           <p className=" w-48">
             <Image

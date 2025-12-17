@@ -10,7 +10,7 @@ const Spotlight = () => {
   ];
 
   return (
-    <section className="max-w-7xl mx-auto px-4 py-8 md:py-20">
+    <section className="max-w-7xl mx-auto px-2 py-8 md:py-20">
       <p className="text-center text-lg text-gray-600 mb-4">(Memories)</p>
       <h2 className="text-5xl md:text-6xl font-calsans font-bold text-center mb-8">
         Spotlight

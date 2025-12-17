@@ -19,18 +19,17 @@ const Hero = () => {
           </p>
         </div>
         <h2 className="font-calsans text-5xl md:text-5xl lg:text-7xl md:leading-loose mb-8">
-          Empowering{" "}
+          Igniting{" "}
           <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700"></span>{" "}
-          <span className="text-accent">Design</span>
+          <span className="text-accent">Innovation</span>
           <br />
-          <span className="text-secondary">for</span>{" "}
+          <span className="text-secondary">Inspiring</span>{" "}
           <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700"></span>{" "}
-          Design Startups
+          Ideas
           <br />
-          <span className="text-secondary">based in</span> London{" "}
+          <span className="text-secondary">Impacting the</span> Future{" "}
         </h2>
-
-        <p className="text-sm md:text-base max-w-xl text-secondary mb-12">
+        <p className="text-sm md:text-base max-w-xl text-gray-900 mb-12">
           We make it easy for startups to launch, grow, and scale with clean,
           conversion focused designs—no delays, no drama.
         </p>
@@ -40,10 +39,10 @@ const Hero = () => {
           <span className="text-xl">→</span>
         </button>
       </main>
-      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-foreground to-[#f0eeee]/50 -z-10"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-foreground via-[#f0eeee]/50 to-black/30 -z-10"></div>
       <div className="absolute top-0 left-0 w-full h-full -z-20">
         <Image
-          src="/home/Banner.png"
+          src="/home/Banner.webp"
           alt="Hero Image"
           width={1920}
           height={1080}
