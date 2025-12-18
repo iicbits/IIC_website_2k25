@@ -129,15 +129,15 @@ export default page;
 const spotlightItems = [
   {
     id: 1,
-    image: "/events/spot3.webp",
-    title: "IIC BIT Sindri achieved 4 star rating in 2022-23",
+    image: "/events/spot4.webp",
+    title: "Successfully organised the TEXcelerate competition",
     subtitle:
       "Awarded by Ministry of Education's Innovation Cell (MIC) for outstanding performance in fostering innovation and entrepreneurship.",
   },
   {
     id: 2,
-    image: "/events/spot4.webp",
-    title: "Successfully organised the TEXcelerate competition",
+    image: "/events/spot3.webp",
+    title: "Felicitation to the selected students in TEXcelerate",
     subtitle:
       "Awarded by Ministry of Education's Innovation Cell (MIC) for outstanding performance in fostering innovation and entrepreneurship.",
   },

@@ -62,57 +62,58 @@ const founders = [
       { title: "Batch", years: "2K16" },
     ],
   },
-  {
-    name: "Sampurn Krishi Utthaan Foundation",
-    bio: "•	Sampurn Krishi Utthaan Foundation, registered as Section 8 company in Ranchi, Jharkhand.Connected with farmers of Jharkhand, Bihar, Odissa.	Promoting Natural / Organic farming.	Right now having MOU with Unmukt Urja Pvt LTD as a social partner to professionalize thousands of Paddy growers towards LEISA (low external input sustainable agriculture). The agri-wastes from Paddy farms will be converted to Bio-Crude. That can be used in making of Bio-fuel.",
-    image: "/images/startup.png",
-    socials: {
-      LinkedIn: "https://linkedin.com/",
-      instagram: "https://instagram.com/",
-    },
-    experience: [
-      { title: "Founder & CEO", years: "Mr. Ravi Singh Choudhary" },
-      { title: "Batch", years: "2K16" },
-    ],
-  },
-  {
-    name: "First Ad",
-    bio: "•	We are heading with the vision of making the world’s largest digitalized advertising ecosystem.	We facilitate creative methods to reach target audience. We connect the most compatible social media influencer using our predictive methods.",
-    image: "/images/startup.png",
-    socials: {
-      LinkedIn: "https://linkedin.com/",
-      instagram: "https://instagram.com/",
-    },
-    experience: [
-      { title: "Founder & CEO", years: "Mr. Milan Kashyap & Mr. Shanu Anand" },
-      { title: "Batch", years: "2K18" },
-    ],
-  },
-  {
-    name: " Successpapa (Udany Pvt Ltd)",
-    bio: "•	Enhance education quality in India, especially in remote areas. Provide affordable educational facilities to everyone.	Foster literacy, skills, and competitive abilities in students.	Encourage regular newspaper reading and improve general awareness and aptitude.",
-    image: "/images/startup.png",
-    socials: {
-      LinkedIn: "https://linkedin.com/",
-      instagram: "https://instagram.com/",
-    },
-    experience: [
-      { title: "Founder & CEO", years: "Mr. Divyanshu Sinha" },
-      { title: "Batch", years: "2K16" },
-    ],
-  },
-  {
-    name: "Urja Viable solutions",
-    bio: "The company's mission is to generate energy from waste to create a sustainable future. Their work includes: Renewable energy,	Suggesting the best renewable energy source for a customer's needs and availability,	Installation,	Finding the best company to install the renewable energy source, considering budget, climate, region, and other factors,	Project management,	Making sure all the prerequisites are in place for a project, from installation to commissioning",
-    image: "/images/startup.png",
-    socials: {
-      LinkedIn: "https://linkedin.com/",
-      instagram: "https://instagram.com/",
-    },
-    experience: [
-      { title: "Founder & CEO", years: "Mr. Kumar Aryan & Mr. Adarsh Tirkey" },
-    ],
-  },
+  // {
+  //   name: "Sampurn Krishi Utthaan Foundation",
+  //   bio: "•	Sampurn Krishi Utthaan Foundation, registered as Section 8 company in Ranchi, Jharkhand.Connected with farmers of Jharkhand, Bihar, Odissa.	Promoting Natural / Organic farming.	Right now having MOU with Unmukt Urja Pvt LTD as a social partner to professionalize thousands of Paddy growers towards LEISA (low external input sustainable agriculture). The agri-wastes from Paddy farms will be converted to Bio-Crude. That can be used in making of Bio-fuel.",
+  //   image: "/images/startup.png",
+  //   socials: {
+  //     LinkedIn: "https://linkedin.com/",
+  //     instagram: "https://instagram.com/",
+  //   },
+  //   experience: [
+  //     { title: "Founder & CEO", years: "Mr. Ravi Singh Choudhary" },
+  //     { title: "Batch", years: "2K16" },
+  //   ],
+  // },
+  // {
+  //   name: "First Ad",
+  //   bio: "•	We are heading with the vision of making the world’s largest digitalized advertising ecosystem.	We facilitate creative methods to reach target audience. We connect the most compatible social media influencer using our predictive methods.",
+  //   image: "/images/startup.png",
+  //   socials: {
+  //     LinkedIn: "https://linkedin.com/",
+  //     instagram: "https://instagram.com/",
+  //   },
+  //   experience: [
+  //    { title: "Founder & CEO", years: "Mr. Milan Kashyap & Mr. Shanu Anand" },
+  //     { title: "Batch", years: "2K18" },
+  //   ],
+  // },
+  // {
+  //   name: " Successpapa (Udany Pvt Ltd)",
+  //   bio: "•	Enhance education quality in India, especially in remote areas. Provide affordable educational facilities to everyone.	Foster literacy, skills, and competitive abilities in students.	Encourage regular newspaper reading and improve general awareness and aptitude.",
+  //   image: "/images/startup.png",
+  //   socials: {
+  //     LinkedIn: "https://linkedin.com/",
+  //     instagram: "https://instagram.com/",
+  //   },
+  //   experience: [
+  //     { title: "Founder & CEO", years: "Mr. Divyanshu Sinha" },
+  //     { title: "Batch", years: "2K16" },
+  //   ],
+  // },
+  // {
+  //   name: "Urja Viable solutions",
+  //   bio: "The company's mission is to generate energy from waste to create a sustainable future. Their work includes: Renewable energy,	Suggesting the best renewable energy source for a customer's needs and availability,	Installation,	Finding the best company to install the renewable energy source, considering budget, climate, region, and other factors,	Project management,	Making sure all the prerequisites are in place for a project, from installation to commissioning",
+  //   image: "/images/startup.png",
+  //   socials: {
+  //     LinkedIn: "https://linkedin.com/",
+  //     instagram: "https://instagram.com/",
+  //   },
+  //   experience: [
+  //     { title: "Founder & CEO", years: "Mr. Kumar Aryan & Mr. Adarsh Tirkey" },
+  //   ],
+  // },
+  
 ];
 
 const page = () => {
