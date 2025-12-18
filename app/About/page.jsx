@@ -129,28 +129,28 @@ export default page;
 const spotlightItems = [
   {
     id: 1,
-    image: "/images/incub.png",
+    image: "/events/spot3.webp",
     title: "IIC BIT Sindri achieved 4 star rating in 2022-23",
     subtitle:
       "Awarded by Ministry of Education's Innovation Cell (MIC) for outstanding performance in fostering innovation and entrepreneurship.",
   },
   {
     id: 2,
-    image: "/images/incub.png",
-    title: "IIC BIT Sindri achieved 4 star rating in 2022-23",
+    image: "/events/spot4.webp",
+    title: "Successfully organised the TEXcelerate competition",
     subtitle:
       "Awarded by Ministry of Education's Innovation Cell (MIC) for outstanding performance in fostering innovation and entrepreneurship.",
   },
   {
     id: 3,
-    image: "/images/incub.png",
-    title: "IIC BIT Sindri achieved 4 star rating in 2022-23",
+        image: "/events/spot8.webp",
+    title: "President Prof. Prakash recognised for Excellence by Governer, Govt. of Jharkhand.",
     subtitle: "",
   },
   {
     id: 4,
-    image: "/images/incub.png",
-    title: "IIC BIT Sindri achieved 4 star rating in 2022-23",
+        image: "/events/spot2.webp",
+    title: "TEAM ARPIT from BIT Sindri at CANSAT Student India Competition.",
     subtitle: "",
   },
 ];

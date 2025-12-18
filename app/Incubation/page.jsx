@@ -10,7 +10,7 @@ const founders = [
   {
     name: "Khwaab  Publication - “ Let You Writings Flyyy! ”",
     bio: "Established strategic alliances with international and domestic partners to foster innovation in the printing and publishing industry.",
-    image: "/images/startup.png",
+    image: "/incubation/khwab.webp",
     socials: {
       LinkedIn: "https://linkedin.com/",
       instagram: "https://instagram.com/",
@@ -24,7 +24,7 @@ const founders = [
   {
     name: "VoWHELM - “ Ensure Your Survival in case of Accident ”",
     bio: "VoWHELM is an advanced IoT-enabled smart safety helmet designed to revolutionize two-wheeler accident response. By leveraging real-time crash detection, and GPS-based hospital connectivity, significantly improving survival rates.",
-    image: "/images/startup.png",
+    image: "/incubation/VW.webp",
     socials: {
       LinkedIn: "https://linkedin.com/",
       instagram: "https://instagram.com/",
@@ -38,7 +38,7 @@ const founders = [
   {
     name: "QR CELEBRTIONS - “Scan, Plan and Celebrate”",
     bio: "QR Weds is a one-stop wedding solution that makes wedding planning easy and smart. From cards, vehicles, and catering to photography and decoration, we handle it all. With our unique QR smart cards, guests can access all wedding details, live location, and gift options with just one scan — blending tradition with technology.",
-    image: "/images/startup.png",
+    image: "/incubation/QR.webp",
     socials: {
       LinkedIn: "https://linkedin.com/",
       instagram: "https://instagram.com/",
@@ -52,7 +52,7 @@ const founders = [
   {
     name: "YuMedic(Milo Doctor)",
     bio: "Yumedics is a fast-growing skincare brand that uses innovative and science-backed ingredients to improve, protect, and enhance the natural  glow of the skin.The brand offers a wide range of products, including face creams, acne treatment brightening serums, sunscreens, and advanced hair care solutions.",
-    image: "/images/startup.png",
+    image: "/incubation/HD.webp",
     socials: {
       LinkedIn: "https://linkedin.com/",
       instagram: "https://instagram.com/",

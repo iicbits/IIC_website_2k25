@@ -6,31 +6,23 @@ import Image from "next/image";
 const projectData = [
   {
     id: 1,
-    category: "UI Design",
-    imageUrl: "/images/incub.png",
-    title: "Abstract Wireframe Render",
+    imageUrl: "/gallery/ipc1.webp",
   },
   {
     id: 2,
-    category: "Development",
-    imageUrl: "/images/incub.png",
-    title: "E-commerce Photography Setup",
+    imageUrl: "/gallery/inno1.webp",
   },
   {
     id: 3,
-    category: "UX Design",
-    imageUrl: "/images/incub.png",
-    title: "Spiral Staircase Architecture",
+    imageUrl: "/gallery/tex3.webp",
   },
   {
     id: 4,
-    category: "Finance",
-    imageUrl: "/images/incub.png",
-    title: "Financial Dashboard UI",
+    imageUrl: "/gallery/ideo2.webp",
   },
 ];
 
-const categories = ["All", "UI Design", "Development", "UX Design", "Finance"];
+const categories = ["All"];
 
 const page = () => {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -70,7 +62,7 @@ const page = () => {
       <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <p className="text-secondary mb-4">(Archives)</p>
         <h2 className="text-4xl sm:text-5xl lg:text-6xl font-calsans font-extrabold mb-8">
-          Sweet Memories
+          IIC Moments
         </h2>
 
         {/* Filter Buttons */}

@@ -111,7 +111,7 @@ export default function page() {
             </div>
             <div className="relative">
               <Image
-                src="/images/incub.png"
+                src="/events/texmin_photo.webp"
                 alt="About Us"
                 width={500}
                 height={400}
