@@ -10,7 +10,7 @@ const founders = [
   {
     name: "Khwaab  Publication - “ Let You Writings Flyyy! ”",
     bio: "Established strategic alliances with international and domestic partners to foster innovation in the printing and publishing industry.",
-    image: "/images/startup.png",
+    image: "/incubation/khwab.webp",
     socials: {
       LinkedIn: "https://linkedin.com/",
       instagram: "https://instagram.com/",
@@ -24,7 +24,7 @@ const founders = [
   {
     name: "VoWHELM - “ Ensure Your Survival in case of Accident ”",
     bio: "VoWHELM is an advanced IoT-enabled smart safety helmet designed to revolutionize two-wheeler accident response. By leveraging real-time crash detection, and GPS-based hospital connectivity, significantly improving survival rates.",
-    image: "/images/startup.png",
+    image: "/incubation/VW.webp",
     socials: {
       LinkedIn: "https://linkedin.com/",
       instagram: "https://instagram.com/",
@@ -38,7 +38,7 @@ const founders = [
   {
     name: "QR CELEBRTIONS - “Scan, Plan and Celebrate”",
     bio: "QR Weds is a one-stop wedding solution that makes wedding planning easy and smart. From cards, vehicles, and catering to photography and decoration, we handle it all. With our unique QR smart cards, guests can access all wedding details, live location, and gift options with just one scan — blending tradition with technology.",
-    image: "/images/startup.png",
+    image: "/incubation/QR.webp",
     socials: {
       LinkedIn: "https://linkedin.com/",
       instagram: "https://instagram.com/",
@@ -52,7 +52,7 @@ const founders = [
   {
     name: "YuMedic(Milo Doctor)",
     bio: "Yumedics is a fast-growing skincare brand that uses innovative and science-backed ingredients to improve, protect, and enhance the natural  glow of the skin.The brand offers a wide range of products, including face creams, acne treatment brightening serums, sunscreens, and advanced hair care solutions.",
-    image: "/images/startup.png",
+    image: "/incubation/HD.webp",
     socials: {
       LinkedIn: "https://linkedin.com/",
       instagram: "https://instagram.com/",
@@ -84,7 +84,7 @@ const founders = [
       instagram: "https://instagram.com/",
     },
     experience: [
-     { title: "Founder & CEO", years: "Mr. Milan Kashyap & Mr. Shanu Anand" },
+      { title: "Founder & CEO", years: "Mr. Milan Kashyap & Mr. Shanu Anand" },
       { title: "Batch", years: "2K18" },
     ],
   },
@@ -113,7 +113,6 @@ const founders = [
       { title: "Founder & CEO", years: "Mr. Kumar Aryan & Mr. Adarsh Tirkey" },
     ],
   },
-  
 ];
 
 const page = () => {
@@ -128,11 +127,13 @@ const page = () => {
             <br />
             <span className="text-secondary">Building</span>{" "}
             <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700"></span>{" "}
-            Entrepreneurs for Tomorrow 
+            Entrepreneurs for Tomorrow
           </h2>
 
-          <p className="text-sm md:text-base max-w-xl text-secondary mb-12">
-            Our incubation program supports student led startups at every stage helping them refine ideas, build prototypes, and move toward real market validation. Several startups from BIT Sindri have already secured seats in our incubation centre, gaining access to mentorship, resources, and a growth focused environment. We aim to strengthen both emerging and established startups as they shape impactful entrepreneurial journeys.
+          <p className="text-sm md:text-base max-w-xl text-secondary mb-7">
+            Our incubation program supports student led startups at every stage
+            helping them refine ideas, build prototypes, and move toward real
+            market validation.
           </p>
 
           <button className="flex items-center space-x-2">
@@ -226,11 +227,13 @@ const page = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center rounded-3xl px-7">
             <h3 className="text-white text-4xl md:text-5xl font-bold text-center">
-              Looking to Get Your <span className="text-accent">Startup</span> <br />
+              Looking to Get Your <span className="text-accent">Startup</span>{" "}
+              <br />
               Incubated?
             </h3>
             <p className="text-gray-400 mt-4 max-w-xl text-center">
-              Reach out to us at iicbits@bitsindri.ac.in or simply fill out the contact form to begin your incubation journey.
+              Reach out to us at iicbits@bitsindri.ac.in or simply fill out the
+              contact form to begin your incubation journey.
             </p>
             <Link
               href="/Contact"

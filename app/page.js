@@ -31,7 +31,7 @@ export default function Home() {
       <IntroIIC />
       <Events />
       <Spotlight />
-      <Resources />
+      {/* <Resources /> */}
       <Testimonials />
       <FAQComponent />
       <JoinUs />

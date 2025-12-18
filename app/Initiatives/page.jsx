@@ -6,19 +6,41 @@ import React, { useState } from "react";
 
 const services = [
   {
-    title: "Web Design",
+    title: "SIH Internals",
     description:
-      "We design visually compelling, user-centric websites that blend creativity with functional brand from scratch.",
-    image: ["/images/incub.png", "/images/startup.png"],
-    tags: ["UI/UX Design", "Responsive Layouts", "Web Development"],
+      "The Hackathon & Coding Club at BIT Sindri, in collaboration with the Entrepreneurial Cell and Institution’s Innovation Council (IIC 7.0), successfully organized an internal hackathon which was designed to foster technological innovation, teamwork, and problem-solving skills among students.",
+    image: ["/events/sih3.webp", "/events/sih2.webp","/events/sih1.webp","/events/sih4.webp"],
   },
   {
-    title: "Web Design",
+    title: "TEXcelerate",
     description:
-      "We design visually compelling, user-centric websites that blend creativity with functional brand from scratch.",
-    image: ["/images/incub.png", "/images/startup.png"],
-    tags: ["UI/UX Design", "Responsive Layouts", "Web Development"],
+      "Institution’s Innovation Council (IIC 7.0), BIT Sindri in collaboration with TEXMiN Hub, IIT ISM Dhanbad successfully conducted Texcelerate. The objective of the event was to encourage and support innovative ideas that can be developed into real-world solutions to address existing challenges.",
+    image: ["/events/tex1.webp", "/events/tex2.webp","/events/tex3.webp","/events/tex4.webp"],
   },
+  {
+    title: "Idea Pitching Competition",
+    description:
+      "As a part of its core mission to promote innovation, creativity, and problem-solving among students, the Institution’s Innovation Council (IIC 7.0) in collaboration with Jharkhand University of Technology, Ranchi BIT Sindri organized Idea Pitching Competition. This event was specifically curated to encourage students to explore innovative solutions rooted in real-world problems.",
+    image: ["/events/ipc1.webp", "/events/ipc2.webp"],
+  },
+  {
+    title: "IDEOGRAPH",
+    description:
+      "In honor of World Creativity and Innovation Day, BIT Sindri’s Institution’s Innovation Council (IIC 7.0) hosted IDEOGRAPH, a compelling and imaginative poster presentation event that brought together student innovators from across engineering disciplines.",
+    image: ["/events/ideo2.webp", "/events/ideo1.webp","/events/ideo3.webp","/events/ideo4.webp"],
+  },
+  {
+    title: "INNOVATHON",
+    description:
+      "INNOVATHON, a 36-hour competition organized by the Institution’s Innovation Council (IIC 7.0) in association with Department of Production and Industrial Engineering, BIT Sindri.The event presented participants with a variety of real-world problem statements, challenging them to design cutting-edge solutions in areas such as smart manufacturing, predictive maintenance,etc.",
+    image: ["/events/inno1.webp", "/events/inno2.webp","/events/inno3.webp","/events/inno4.webp","/events/inno5.webp"],
+  },
+  {
+    title: "MENTOR MENTEE SCHEME ",
+    description:
+      "Under the Supervision of Chairman, Prof. Pankaj Rai (Director, BIT Sindri), President, Prof. Prakash Kumar & Convener Prof. Rahul Kumar. Standard Xth Students from Mother's Teresa School visited BIT Sindri Innovation & Incubation Centre Foundation.",
+    image: ["/events/mentormentee.webp"],
+  }
 ];
 
 const page = () => {
@@ -121,7 +143,7 @@ const page = () => {
                 </div>
 
                 {/* Tags */}
-                <div className="mt-6 flex flex-wrap justify-center lg:justify-start gap-3">
+                {/* <div className="mt-6 flex flex-wrap justify-center lg:justify-start gap-3">
                   {service.tags.map((tag, tagIndex) => (
                     <span
                       key={tagIndex}
@@ -130,7 +152,7 @@ const page = () => {
                       {tag}
                     </span>
                   ))}
-                </div>
+                </div> */}
               </div>
 
               <div className="">

@@ -3,10 +3,10 @@ import React from "react";
 
 const Spotlight = () => {
   const spotlightItems = [
-    { id: 1, title: "Innovation Hub", span: "col-span-1" },
-    { id: 2, title: "Tech Excellence", span: "md:col-span-2" },
-    { id: 3, title: "Future Forward", span: "md:col-span-2" },
-    { id: 4, title: "Creative Space", span: "col-span-1" },
+    { id: 1, title: "President, Prof. Prakash Kumar welcomed SAIL Chairman Shri Amrendu Prakash", image: "/events/spot10.jpg", span: "col-span-1" },
+    { id: 2, title: "Chairman, Prof. Pankaj Rai welcomed CEO, ASARFI Hospital.", image: "/events/spot1.webp", span: "md:col-span-2" },
+    { id: 3, title: "TEAM ARPIT from BIT Sindri at CANSAT Student India Competition.", image: "/events/spot2.webp", span: "md:col-span-2" },
+    { id: 4, title: "Team IIC BIT Sindri after Successful Conduction of INNOVATHON 2025.", image: "/events/spot9.webp", span: "col-span-1" },
   ];
 
   return (
@@ -22,7 +22,7 @@ const Spotlight = () => {
             className={`relative ${item.span} overflow-hidden rounded-lg group h-64 md:h-80`}
           >
             <Image
-              src="/images/incub.png"
+              src={item.image}
               alt={item.title}
               fill
               className="object-cover transition-transform duration-300 group-hover:scale-105"

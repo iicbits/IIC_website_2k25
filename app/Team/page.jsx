@@ -13,9 +13,9 @@ const TeamSection = () => {
   const faculties = [
     {
       id: 1,
-      name: "Alex Kumongso",
-      role: "Founder & CEO",
-      image: "/team/myphoto.png",
+      name: "Prof. Pankaj Rai",
+      role: "Chairman IIC BIT Sindri",
+      image: "/team/pankajrai.webp",
       social: {
         email: "#",
         linkedin: "#",
@@ -25,7 +25,7 @@ const TeamSection = () => {
       id: 2,
       name: "Lisa Ningrum",
       role: "Chief Technology Officer",
-      image: "/team/myphoto.png",
+      image: "/team/prakash.webp",
       social: {
         email: "#",
         linkedin: "#",
@@ -35,7 +35,7 @@ const TeamSection = () => {
       id: 3,
       name: "Ryan Wilujeng",
       role: "Head of Operations",
-      image: "/team/myphoto.png",
+      image: "/team/sc.webp",
       social: {
         email: "#",
         linkedin: "#",
@@ -45,7 +45,107 @@ const TeamSection = () => {
       id: 4,
       name: "Sarah Kumala",
       role: "VP of Customer Success",
-      image: "/team/myphoto.png",
+      image: "/team/mukesh.webp",
+      social: {
+        email: "#",
+        linkedin: "#",
+      },
+    },
+    {
+      id: 5,
+      name: "Sarah Kumala",
+      role: "VP of Customer Success",
+      image: "/team/khustar.webp",
+      social: {
+        email: "#",
+        linkedin: "#",
+      },
+    },
+    {
+      id: 6,
+      name: "Sarah Kumala",
+      role: "VP of Customer Success",
+      image: "/team/vijay.webp",
+      social: {
+        email: "#",
+        linkedin: "#",
+      },
+    },
+    {
+      id: 7,
+      name: "Sarah Kumala",
+      role: "VP of Customer Success",
+      image: "/team/kashif.webp",
+      social: {
+        email: "#",
+        linkedin: "#",
+      },
+    },
+    {
+      id: 8,
+      name: "Sarah Kumala",
+      role: "VP of Customer Success",
+      image: "/team/fac.webp",
+      social: {
+        email: "#",
+        linkedin: "#",
+      },
+    },
+    {
+      id: 9,
+      name: "Sarah Kumala",
+      role: "VP of Customer Success",
+      image: "/team/sanjay.webp",
+      social: {
+        email: "#",
+        linkedin: "#",
+      },
+    },
+    {
+      id: 10,
+      name: "Sarah Kumala",
+      role: "VP of Customer Success",
+      image: "/team/mam.webp",
+      social: {
+        email: "#",
+        linkedin: "#",
+      },
+    },
+    {
+      id: 11,
+      name: "Sarah Kumala",
+      role: "VP of Customer Success",
+      image: "/team/manjumam.webp",
+      social: {
+        email: "#",
+        linkedin: "#",
+      },
+    },
+    {
+      id: 12,
+      name: "Sarah Kumala",
+      role: "VP of Customer Success",
+      image: "/team/abhijit.webp",
+      social: {
+        email: "#",
+        linkedin: "#",
+      },
+    },
+    {
+      id: 13,
+      name: "Sarah Kumala",
+      role: "VP of Customer Success",
+      image: "/team/roshan.webp",
+      social: {
+        email: "#",
+        linkedin: "#",
+      },
+    },
+    {
+      id: 13,
+      name: "Sarah Kumala",
+      role: "VP of Customer Success",
+      image: "/team/rahul.webp",
       social: {
         email: "#",
         linkedin: "#",
@@ -86,8 +186,10 @@ const TeamSection = () => {
           image: "/team/manohar.png",
           social: {
             email: "manoharjha809@gmail.com",
-            linkedin: "https://www.linkedin.com/in/manohar-jha-1b1765257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/_manohar.jha_5?igsh=b2ZkYjExcjV2cmFq",
+            linkedin:
+              "https://www.linkedin.com/in/manohar-jha-1b1765257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/_manohar.jha_5?igsh=b2ZkYjExcjV2cmFq",
           },
         },
         {
@@ -114,7 +216,8 @@ const TeamSection = () => {
           social: {
             email: "adarsh.iic@bitsindri.ac.in",
             linkedin: "https://www.linkedin.com/in/adarsh-kumar-03a459200",
-            instagram: "https://www.instagram.com/_aadi005?utm_source=qr&igsh=dmIzNDZqY3c2M2h6",
+            instagram:
+              "https://www.instagram.com/_aadi005?utm_source=qr&igsh=dmIzNDZqY3c2M2h6",
           },
         },
         {
@@ -125,7 +228,8 @@ const TeamSection = () => {
           social: {
             email: "ukjha2004@gmail.com",
             linkedin: "https://www.linkedin.com/in/utsav-jha-021009211",
-            instagram: "https://www.instagram.com/utsavjha744?igsh=MWl0eWJhMXVudXhobg==",
+            instagram:
+              "https://www.instagram.com/utsavjha744?igsh=MWl0eWJhMXVudXhobg==",
           },
         },
         {
@@ -135,8 +239,10 @@ const TeamSection = () => {
           image: "/team/rahul.png",
           social: {
             email: "rahul.iic@bitsindri.ac.in",
-            linkedin: "https://www.linkedin.com/in/rahul-kumar-98b607290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/im_rahul3651?igsh=MTVpd3BhZm5mYnl5MA==",
+            linkedin:
+              "https://www.linkedin.com/in/rahul-kumar-98b607290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/im_rahul3651?igsh=MTVpd3BhZm5mYnl5MA==",
           },
         },
         {
@@ -147,7 +253,8 @@ const TeamSection = () => {
           social: {
             email: "dhruv.iic@bitsindri.ac.in",
             linkedin: "https://www.linkedin.com/in/dhruv-gupta-a70346292",
-            instagram: "https://www.instagram.com/_0xdhruv?igsh=MXA4bWszMWIxYTdmbQ==",
+            instagram:
+              "https://www.instagram.com/_0xdhruv?igsh=MXA4bWszMWIxYTdmbQ==",
           },
         },
         {
@@ -158,7 +265,8 @@ const TeamSection = () => {
           social: {
             email: "Kunal.iic@bitsindri.ac.in",
             linkedin: "https://www.linkedin.com/kunal-sonkar-bits",
-            instagram: "https://www.instagram.com/oye_kunaaal?igsh=MzV2eDR2emUzamt4",
+            instagram:
+              "https://www.instagram.com/oye_kunaaal?igsh=MzV2eDR2emUzamt4",
           },
         },
         {
@@ -169,7 +277,8 @@ const TeamSection = () => {
           social: {
             email: "shivangi.iic@bitsindri.ac.in",
             linkedin: "https://www.linkedin.com/in/shivangi-kumari-67b927287/",
-            instagram: "https://www.instagram.com/shiv_shiviiii_45?igsh=MXcxd2UxdWxvdmo4aA%3D%3D&utm_source=qr",
+            instagram:
+              "https://www.instagram.com/shiv_shiviiii_45?igsh=MXcxd2UxdWxvdmo4aA%3D%3D&utm_source=qr",
           },
         },
         {
@@ -179,8 +288,10 @@ const TeamSection = () => {
           image: "/team/shreya.png",
           social: {
             email: "pandeyshre19@gmail.com",
-            linkedin: "https://www.linkedin.com/in/shreya-p-55b909219?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/shrey_apandey19?igsh=MW1xOTRkbzlpdGRmbQ==",
+            linkedin:
+              "https://www.linkedin.com/in/shreya-p-55b909219?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/shrey_apandey19?igsh=MW1xOTRkbzlpdGRmbQ==",
           },
         },
         {
@@ -191,7 +302,8 @@ const TeamSection = () => {
           social: {
             email: "ayush.iic@bitsindri.ac.in",
             linkedin: "www.linkedin.com/in/ ayush-k-bhagat",
-            instagram: "https://www.instagram.com/ayush_26373?igsh=NTNmZmZzbTI0anE2",
+            instagram:
+              "https://www.instagram.com/ayush_26373?igsh=NTNmZmZzbTI0anE2",
           },
         },
         {
@@ -220,14 +332,15 @@ const TeamSection = () => {
           id: 15,
           name: "Shashi Kumar",
           role: "Media",
-          image: "/team/shashi.jpg",
+          image: "/team/shashi.png",
           social: {
             email: "shashi.iic@bitsindri.ac.in",
-            linkedin: "https://www.linkedin.com/in/shashi-kumar-60b0b3325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/shashisuprabhat106?igsh=dTVhZnU4M2Riajli",
+            linkedin:
+              "https://www.linkedin.com/in/shashi-kumar-60b0b3325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/shashisuprabhat106?igsh=dTVhZnU4M2Riajli",
           },
         },
-        
       ],
     },
     second: {
@@ -240,8 +353,10 @@ const TeamSection = () => {
           image: "/team/samir.png",
           social: {
             email: "emailonebrown@gmail.com",
-            linkedin: "https://www.linkedin.com/in/samir-kumar-650520305?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/i_samir17?igsh=MTB5Z3R2cjl1MmwxMQ==",
+            linkedin:
+              "https://www.linkedin.com/in/samir-kumar-650520305?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/i_samir17?igsh=MTB5Z3R2cjl1MmwxMQ==",
           },
         },
         {
@@ -251,8 +366,10 @@ const TeamSection = () => {
           image: "/team/ravikant.png",
           social: {
             email: "ravi.eceug24@bitsindri.ac.in",
-            linkedin: "https://www.linkedin.com/in/ravi-kant-b1612b356?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/ravi15_12?igsh=cnFrcDRyaDVhNnNp",
+            linkedin:
+              "https://www.linkedin.com/in/ravi-kant-b1612b356?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/ravi15_12?igsh=cnFrcDRyaDVhNnNp",
           },
         },
         {
@@ -262,7 +379,8 @@ const TeamSection = () => {
           image: "/team/pravin.png",
           social: {
             email: "praveen.iic@bitsindri.ac.in",
-            linkedin: "https://www.linkedin.com/in/praveen-kumar-chaurasiya-a4abb7333/",
+            linkedin:
+              "https://www.linkedin.com/in/praveen-kumar-chaurasiya-a4abb7333/",
             instagram: "https://www.instagram.com/5022.praveen/?hl=en",
           },
         },
@@ -273,8 +391,10 @@ const TeamSection = () => {
           image: "/team/bibek.png",
           social: {
             email: "bibekkumbhakr000@gmail.com",
-            linkedin: "https://www.linkedin.com/in/bibek-kumbhakar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/bibekkumbhakr000?igsh=MTN2NGhrdHJyZWp2YQ==",
+            linkedin:
+              "https://www.linkedin.com/in/bibek-kumbhakar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/bibekkumbhakr000?igsh=MTN2NGhrdHJyZWp2YQ==",
           },
         },
         {
@@ -284,8 +404,10 @@ const TeamSection = () => {
           image: "/team/abhas.png",
           social: {
             email: "abhaskumarbardhan@gmail.com",
-            linkedin: "https://www.linkedin.com/in/abhas-kumar-bardhan-74b13132a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/abhas25_?igsh=ZnRxc3lpbThzYWho",
+            linkedin:
+              "https://www.linkedin.com/in/abhas-kumar-bardhan-74b13132a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/abhas25_?igsh=ZnRxc3lpbThzYWho",
           },
         },
         {
@@ -306,8 +428,10 @@ const TeamSection = () => {
           image: "/team/rakesh.png",
           social: {
             email: "rakeshpandey5510@gmail.com",
-            linkedin: "https://www.linkedin.com/in/rakesh-pandey-493b7435b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-            instagram: "https://www.instagram.com/iiamrakeshh?igsh=bTRwb2h3aWdsbzIy&utm_source=qr",
+            linkedin:
+              "https://www.linkedin.com/in/rakesh-pandey-493b7435b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+            instagram:
+              "https://www.instagram.com/iiamrakeshh?igsh=bTRwb2h3aWdsbzIy&utm_source=qr",
           },
         },
         {
@@ -317,8 +441,10 @@ const TeamSection = () => {
           image: "/team/shashank.png",
           social: {
             email: "shashank.sg.6002@gmail.com",
-            linkedin: "https://www.linkedin.com/in/shashank-gupta-230489338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/i_have_no_idea000_?igsh=aHNrZGs3ZzB2bmZv&utm_source=ig_contact_invite",
+            linkedin:
+              "https://www.linkedin.com/in/shashank-gupta-230489338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/i_have_no_idea000_?igsh=aHNrZGs3ZzB2bmZv&utm_source=ig_contact_invite",
           },
         },
         {
@@ -328,8 +454,10 @@ const TeamSection = () => {
           image: "/team/rimsha.png",
           social: {
             email: "rimsha.iic@bitsindri.ac.in",
-            linkedin: "https://www.linkedin.com/in/rimsha-taslim-5a8724336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/rimshaaax._?igsh=YWtjMGppMXF2dTlt",
+            linkedin:
+              "https://www.linkedin.com/in/rimsha-taslim-5a8724336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/rimshaaax._?igsh=YWtjMGppMXF2dTlt",
           },
         },
         {
@@ -350,8 +478,10 @@ const TeamSection = () => {
           image: "/team/anish.png",
           social: {
             email: "anish2406012@gmail.com",
-            linkedin: "https://www.linkedin.com/in/anish-kumar-29a9a2336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/anish_official_71?igsh=Nng0OHd2MmM2eDNt",
+            linkedin:
+              "https://www.linkedin.com/in/anish-kumar-29a9a2336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/anish_official_71?igsh=Nng0OHd2MmM2eDNt",
           },
         },
         {
@@ -361,8 +491,10 @@ const TeamSection = () => {
           image: "/team/prakhar.png",
           social: {
             email: "prakharjhapratyush@gmail.com",
-            linkedin: "https://www.linkedin.com/in/prakhar-pratyush-jha911?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/prakharjha911?igsh=cGtrZmk5bDI3bHJq",
+            linkedin:
+              "https://www.linkedin.com/in/prakhar-pratyush-jha911?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/prakharjha911?igsh=cGtrZmk5bDI3bHJq",
           },
         },
         {
@@ -372,8 +504,10 @@ const TeamSection = () => {
           image: "/team/aradhna.png",
           social: {
             email: "sharmaarchi70046@gmail.com",
-            linkedin: "https://www.linkedin.com/in/aradhana-sharma-b486a7358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/aarchi34645?igsh=MWp3dDRmeHRiNDgzNA==",
+            linkedin:
+              "https://www.linkedin.com/in/aradhana-sharma-b486a7358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/aarchi34645?igsh=MWp3dDRmeHRiNDgzNA==",
           },
         },
         {
@@ -383,8 +517,10 @@ const TeamSection = () => {
           image: "/team/varsha.png",
           social: {
             email: "varshu1929@gmail.com",
-            linkedin: "https://www.linkedin.com/in/varsha-rani-a33078294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/varsharani_2005?igsh=ZDc2ZTkxOTV3aGVu",
+            linkedin:
+              "https://www.linkedin.com/in/varsha-rani-a33078294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/varsharani_2005?igsh=ZDc2ZTkxOTV3aGVu",
           },
         },
         {
@@ -394,8 +530,10 @@ const TeamSection = () => {
           image: "/team/vatsal.png",
           social: {
             email: "Vatsal.kr85fri@gmail.com",
-            linkedin: "https://www.linkedin.com/in/vatsal-krishna-890093359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/vatsalkrishn_?igsh=MTB3c3d1OWFocm44Yg==",
+            linkedin:
+              "https://www.linkedin.com/in/vatsal-krishna-890093359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/vatsalkrishn_?igsh=MTB3c3d1OWFocm44Yg==",
           },
         },
         {
@@ -406,7 +544,8 @@ const TeamSection = () => {
           social: {
             email: "diptanshujaiswal2000@gmail.com",
             linkedin: "http://linkedin.com/in/diptanshu-jaiswal-b765b421b",
-            instagram: "https://www.instagram.com/diptanshu.jaiswal?igsh=bW52MnVzY2Zja2V0",
+            instagram:
+              "https://www.instagram.com/diptanshu.jaiswal?igsh=bW52MnVzY2Zja2V0",
           },
         },
         {
@@ -416,8 +555,10 @@ const TeamSection = () => {
           image: "/team/pratuish.png",
           social: {
             email: "chourasiapratiush@gmail.com",
-            linkedin: "https://www.linkedin.com/in/pratiush-chourasia-95a510229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/pratiush2023?igsh=am91M3cyN2V2YXE5",
+            linkedin:
+              "https://www.linkedin.com/in/pratiush-chourasia-95a510229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/pratiush2023?igsh=am91M3cyN2V2YXE5",
           },
         },
         {
@@ -427,8 +568,10 @@ const TeamSection = () => {
           image: "/team/dipak.png",
           social: {
             email: "deepakkrram70@gmail.com",
-            linkedin: "https://www.linkedin.com/in/deepak-chandrawanshi-a22631337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/invites/contact/?igsh=1t1althpx6hx1&utm_content=m3hraui",
+            linkedin:
+              "https://www.linkedin.com/in/deepak-chandrawanshi-a22631337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/invites/contact/?igsh=1t1althpx6hx1&utm_content=m3hraui",
           },
         },
         {
@@ -438,7 +581,8 @@ const TeamSection = () => {
           image: "/team/shital.png",
           social: {
             email: "sandhyashital4801@gmail.com",
-            linkedin: "https://www.linkedin.com/in/shital-sandhya-b83085320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            linkedin:
+              "https://www.linkedin.com/in/shital-sandhya-b83085320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             instagram: "https://www.instagram.com/SHITAL_45341",
           },
         },
@@ -449,8 +593,10 @@ const TeamSection = () => {
           image: "/team/megha.png",
           social: {
             email: "megh.workk@gmail.com",
-            linkedin: "https://www.linkedin.com/in/megha-s-708717338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/_megh.a_._?igsh=MW92MGEyc2Vqajd6bA==",
+            linkedin:
+              "https://www.linkedin.com/in/megha-s-708717338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/_megh.a_._?igsh=MW92MGEyc2Vqajd6bA==",
           },
         },
         {
@@ -460,8 +606,10 @@ const TeamSection = () => {
           image: "/team/kajal.png",
           social: {
             email: "k6404019@gmail.com",
-            linkedin: "https://www.linkedin.com/in/kajal-kumari-687a78322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/kajalkumari__2803?igsh=d2d2MWU5OXNmNzV3",
+            linkedin:
+              "https://www.linkedin.com/in/kajal-kumari-687a78322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/kajalkumari__2803?igsh=d2d2MWU5OXNmNzV3",
           },
         },
         {
@@ -471,8 +619,10 @@ const TeamSection = () => {
           image: "/team/krish.png",
           social: {
             email: "krrish01sahu@gmail.com",
-            linkedin: "https://www.linkedin.com/in/krrish-raj-333926335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/krrish6887?igsh=MWgwc2k0NWVmd2Vt",
+            linkedin:
+              "https://www.linkedin.com/in/krrish-raj-333926335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/krrish6887?igsh=MWgwc2k0NWVmd2Vt",
           },
         },
         {
@@ -493,8 +643,10 @@ const TeamSection = () => {
           image: "/team/vineet.png",
           social: {
             email: "vineetverma163@gmail.com",
-            linkedin: "https://www.linkedin.com/in/vineet-verma-b81a0a361?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/__vineet.verma?igsh=MWo1eHFyZzE4cXlrdg==",
+            linkedin:
+              "https://www.linkedin.com/in/vineet-verma-b81a0a361?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/__vineet.verma?igsh=MWo1eHFyZzE4cXlrdg==",
           },
         },
         {
@@ -504,8 +656,10 @@ const TeamSection = () => {
           image: "/team/shivam.png",
           social: {
             email: "shivamsingh20052005@gmail.com",
-            linkedin: "https://www.linkedin.com/in/shivam-singh-343222366?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/shivam.singh.03?igsh=NHk2YXJrZ2R4MGFp",
+            linkedin:
+              "https://www.linkedin.com/in/shivam-singh-343222366?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/shivam.singh.03?igsh=NHk2YXJrZ2R4MGFp",
           },
         },
         {
@@ -526,8 +680,10 @@ const TeamSection = () => {
           image: "/team/abhijeet.png",
           social: {
             email: "abhijeetkumarchouhan5@gmail.com",
-            linkedin: "https://www.linkedin.com/in/abhijeet-chouhan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/realabhijeett?igsh=MTVuNWp6eHVmNDVnNg==",
+            linkedin:
+              "https://www.linkedin.com/in/abhijeet-chouhan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/realabhijeett?igsh=MTVuNWp6eHVmNDVnNg==",
           },
         },
         {
@@ -537,8 +693,10 @@ const TeamSection = () => {
           image: "/team/sudhir.png",
           social: {
             email: "sudhirkrverma8@gmail.com",
-            linkedin: "https://www.linkedin.com/in/sudhir-kumar-verma-681793354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/sudhir4_?igsh=MTN4aThrMmgyZHJyOQ==",
+            linkedin:
+              "https://www.linkedin.com/in/sudhir-kumar-verma-681793354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/sudhir4_?igsh=MTN4aThrMmgyZHJyOQ==",
           },
         },
         {
@@ -548,8 +706,10 @@ const TeamSection = () => {
           image: "/team/piyush.png",
           social: {
             email: "piyushdwivedi8709@gmail.com",
-            linkedin: "https://www.linkedin.com/in/piyush-dwivedi-679319272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            instagram: "https://www.instagram.com/piyush.dwivedi_27?igsh=MTc5dDI3OHZmMTVz",
+            linkedin:
+              "https://www.linkedin.com/in/piyush-dwivedi-679319272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:
+              "https://www.instagram.com/piyush.dwivedi_27?igsh=MTc5dDI3OHZmMTVz",
           },
         },
         {
@@ -558,12 +718,12 @@ const TeamSection = () => {
           role: "Operations",
           image: "/team/maitri.png",
           social: {
-            email: "https://www.instagram.com/maitri__232?igsh=YnplY3lydG0zdzRr",
+            email:
+              "https://www.instagram.com/maitri__232?igsh=YnplY3lydG0zdzRr",
             linkedin: "https://www.linkedin.com/in/maitri-89a17732a",
             instagram: "singhmaitri233@gmail.com",
           },
         },
-        
       ],
     },
   };
@@ -582,7 +742,9 @@ const TeamSection = () => {
           </h2>
 
           <p className="text-sm md:text-base max-w-xl text-secondary mb-12">
-            Our team brings together dedicated faculty mentors and dynamic student leaders who work collectively to strengthen the culture of innovation and entrepreneurship at BIT Sindri. With diverse expertise and a shared commitment to growth, they guide programs, support ideas, and empower students to build impactful solutions. 
+            Our team brings together dedicated faculty mentors and dynamic
+            student leaders who work collectively to strengthen the culture of
+            innovation and entrepreneurship at BIT Sindri.
           </p>
 
           <button className="flex items-center space-x-2">
@@ -604,12 +766,12 @@ const TeamSection = () => {
                 Meet the Team
               </h2>
             </div>
-            <div className="flex-1 max-w-md">
+            {/* <div className="flex-1 max-w-md">
               <p className="text-lg leading-relaxed">
                 Our AI-driven automation eliminates busywork, streamlines your
                 operations, and helps your business grow, without extra effort.
               </p>
-            </div>
+            </div> */}
           </div>
 
           {/* Faculty Coordinators */}
@@ -802,12 +964,13 @@ const TeamSection = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center justify-center rounded-3xl px-7">
             <h3 className="text-white text-4xl md:text-5xl font-bold text-center">
-             Interested in becoming a
+              Interested in becoming a
               <br />
               <span className="text-accent">Part</span> Team?
             </h3>
             <p className="text-gray-400 mt-4 max-w-xl text-center">
-              Send your application to iicbits@bitsindri.ac.in  or simply fill out the registration form to get started.
+              Send your application to iicbits@bitsindri.ac.in or simply fill
+              out the registration form to get started.
             </p>
             <Link
               href="/Registration-form"

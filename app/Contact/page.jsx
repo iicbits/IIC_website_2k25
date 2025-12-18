@@ -68,7 +68,7 @@ const page = () => {
               <h1 className="font-bold opacity-90 mb-1">CONTACT</h1>
               <p className="text-gray-400 flex flex-col mb-2">
                 <span>iicbits@bitsindri.ac.in</span>
-                <span>iicbits@bitsindri.ac.in</span>
+                <span>chief.iic@bitsindri.ac.in</span>
               </p>
             </div>
           </div>
