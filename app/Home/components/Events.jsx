@@ -48,7 +48,7 @@ const Events = () => {
         <div className="bg-gray-900 text-white w-full md:w-80 rounded-3xl p-8 flex flex-col justify-between min-h-[500px] flex-shrink-0">
           <div className="space-y-12">
             <div>
-              <div className="text-6xl font-bold mb-2">35+</div>
+              <div className="text-6xl font-bold mb-2">40+</div>
               <div className="text-gray-300 text-lg">Total Events</div>
             </div>
 
