@@ -27,15 +27,15 @@ const Hero = () => {
           <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700"></span>{" "}
           Ideas
           <br />
-          <span className="text-secondary">Impacting the</span> Future{" "}
+          <span className="text-secondary">Impacting </span>the Future{" "}
         </h2>
-        <p className="text-sm md:text-base font-semibold max-w-xl text-gray-900 mb-12">
+        <p className="text-sm md:text-base font-semibold max-w-xl text-gray-900/80 mb-12">
           We empower students and startups to transform visionary ideas into
           impactful solutions through mentorship, resources, and real world
           opportunities, turning creativity into lasting change.
         </p>
       </main>
-      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-foreground via-[#f0eeee]/50 to-black/30 -z-10"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-foreground via-[#f0eeee]/70 to-black/30 -z-10"></div>
       <div className="absolute top-0 left-0 w-full h-full -z-20">
         <Image
           src="/home/Banner.webp"

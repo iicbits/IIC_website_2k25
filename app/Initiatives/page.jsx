@@ -6,16 +6,39 @@ import React, { useState } from "react";
 
 const services = [
   {
-    title: "SIH Internals",
+    title: "INNOVATHON",
     description:
-      "The Hackathon & Coding Club at BIT Sindri, in collaboration with the Entrepreneurial Cell and Institution’s Innovation Council (IIC 7.0), successfully organized an internal hackathon which was designed to foster technological innovation, teamwork, and problem-solving skills among students.",
-    image: ["/events/sih3.webp", "/events/sih2.webp","/events/sih1.webp","/events/sih4.webp"],
+      "INNOVATHON, a 36-hour competition organized by the Institution’s Innovation Council (IIC 7.0) in association with Department of Production and Industrial Engineering, BIT Sindri.The event presented participants with a variety of real-world problem statements, challenging them to design cutting-edge solutions in areas such as smart manufacturing, predictive maintenance,etc.",
+    image: [
+      "/events/inno1.webp",
+      "/events/inno2.webp",
+      "/events/inno3.webp",
+      "/events/inno4.webp",
+      "/events/inno5.webp",
+    ],
+  },
+  {
+    title: "MENTOR MENTEE SCHEME ",
+    description:
+      "Under the Supervision of Chairman, Prof. Pankaj Rai (Director, BIT Sindri), President, Prof. Prakash Kumar & Convener Prof. Rahul Kumar. Standard Xth Students from Mother's Teresa School visited BIT Sindri Innovation & Incubation Centre Foundation.",
+    image: [
+      "/events/mms2.jpeg",
+      "/events/mms1.jpeg",
+      "/events/mms3.jpeg",
+      "/events/mms4.jpeg",
+      "/events/mms5.jpeg",
+    ],
   },
   {
     title: "TEXcelerate",
     description:
       "Institution’s Innovation Council (IIC 7.0), BIT Sindri in collaboration with TEXMiN Hub, IIT ISM Dhanbad successfully conducted Texcelerate. The objective of the event was to encourage and support innovative ideas that can be developed into real-world solutions to address existing challenges.",
-    image: ["/events/tex1.webp", "/events/tex2.webp","/events/tex3.webp","/events/tex4.webp"],
+    image: [
+      "/events/tex1.webp",
+      "/events/tex2.webp",
+      "/events/tex3.webp",
+      "/events/tex4.webp",
+    ],
   },
   {
     title: "Idea Pitching Competition",
@@ -27,20 +50,25 @@ const services = [
     title: "IDEOGRAPH",
     description:
       "In honor of World Creativity and Innovation Day, BIT Sindri’s Institution’s Innovation Council (IIC 7.0) hosted IDEOGRAPH, a compelling and imaginative poster presentation event that brought together student innovators from across engineering disciplines.",
-    image: ["/events/ideo2.webp", "/events/ideo1.webp","/events/ideo3.webp","/events/ideo4.webp"],
+    image: [
+      "/events/ideo2.webp",
+      "/events/ideo1.webp",
+      "/events/ideo3.webp",
+      "/events/ideo4.webp",
+    ],
   },
+
   {
-    title: "INNOVATHON",
+    title: "SIH Internals",
     description:
-      "INNOVATHON, a 36-hour competition organized by the Institution’s Innovation Council (IIC 7.0) in association with Department of Production and Industrial Engineering, BIT Sindri.The event presented participants with a variety of real-world problem statements, challenging them to design cutting-edge solutions in areas such as smart manufacturing, predictive maintenance,etc.",
-    image: ["/events/inno1.webp", "/events/inno2.webp","/events/inno3.webp","/events/inno4.webp","/events/inno5.webp"],
+      "The Hackathon & Coding Club at BIT Sindri, in collaboration with the Entrepreneurial Cell and Institution’s Innovation Council (IIC 7.0), successfully organized an internal hackathon which was designed to foster technological innovation, teamwork, and problem-solving skills among students.",
+    image: [
+      "/events/sih3.webp",
+      "/events/sih2.webp",
+      "/events/sih1.webp",
+      "/events/sih4.webp",
+    ],
   },
-  {
-    title: "MENTOR MENTEE SCHEME ",
-    description:
-      "Under the Supervision of Chairman, Prof. Pankaj Rai (Director, BIT Sindri), President, Prof. Prakash Kumar & Convener Prof. Rahul Kumar. Standard Xth Students from Mother's Teresa School visited BIT Sindri Innovation & Incubation Centre Foundation.",
-    image: ["/events/mentormentee.webp"],
-  }
 ];
 
 const page = () => {
@@ -77,14 +105,16 @@ const page = () => {
           <h2 className="font-calsans text-5xl md:text-5xl lg:text-7xl md:leading-loose mb-8">
             Where Ideas{" "}
             <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700"></span>{" "}
-            <span className="text-accent">Compete</span>
+            <span className="text-accent">Compete</span>,
             <br />
             <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700"></span>{" "}
-            Collaborate & Come Alive
+            <span className="text-secondary">Collaborate </span>& Come Alive
           </h2>
 
           <p className="text-sm md:text-base max-w-xl text-secondary mb-12">
-            Our initiatives bring together innovation challenges, hackathons, workshops, and real world problem solving to shape the next generation of innovators. 
+            Our initiatives bring together innovation challenges, hackathons,
+            workshops, and real world problem solving to shape the next
+            generation of innovators.
           </p>
 
           <button className="flex items-center space-x-2">

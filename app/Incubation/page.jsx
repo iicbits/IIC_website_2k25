@@ -8,6 +8,19 @@ import React from "react";
 
 const founders = [
   {
+    name: "YuMedic(Milo Doctor)",
+    bio: "Yumedics is a fast-growing skincare brand that uses innovative and science-backed ingredients to improve, protect, and enhance the natural  glow of the skin.The brand offers a wide range of products, including face creams, acne treatment brightening serums, sunscreens, and advanced hair care solutions.",
+    image: "/incubation/HD.webp",
+    socials: {
+      LinkedIn: "https://linkedin.com/",
+      instagram: "https://instagram.com/",
+    },
+    experience: [
+      { title: "Founder & CEO", years: "Mr. Karan Raj Mehta" },
+      { title: "Batch", years: "2K16" },
+    ],
+  },
+  {
     name: "Khwaab  Publication - “ Let You Writings Flyyy! ”",
     bio: "Established strategic alliances with international and domestic partners to foster innovation in the printing and publishing industry.",
     image: "/incubation/khwab.webp",
@@ -26,8 +39,8 @@ const founders = [
     bio: "VoWHELM is an advanced IoT-enabled smart safety helmet designed to revolutionize two-wheeler accident response. By leveraging real-time crash detection, and GPS-based hospital connectivity, significantly improving survival rates.",
     image: "/incubation/VW.webp",
     socials: {
-      LinkedIn: "https://linkedin.com/",
-      instagram: "https://instagram.com/",
+      LinkedIn: "https://linkedin.com/company/vowhelm",
+      instagram: "https://www.instagram.com/vowhelm_",
     },
     experience: [
       { title: "Founder & CEO", years: "Mr. Syed Adnan Ahmad" },
@@ -35,6 +48,23 @@ const founders = [
       { title: "Branch", years: "PRODUCTION & INDUSTRIAL ENGG. , 2K22" },
     ],
   },
+  {
+    name: `NEXTLAYER LLP - "Crafting tomorrow layer by layer"`,
+    bio: "NextLayers is an India-based deep-tech and EdTech initiative that supports the maker community through 3D printing education, tutorials, reviews, and hands-on projects. While NextLayer LLP focuses on industry-relevant training and R&D in areas like 3D printing, robotics, AI, IoT, and design, helping learners move to the next layer of technological skills.",
+    image: "/incubation/NL.webp",
+    socials: {
+      LinkedIn: "https://www.linkedin.com/company/nextlayer25/",
+      instagram: "https://www.instagram.com/nextlayer_designs",
+    },
+    experience: [
+      {
+        title: "Partners",
+        years: "Amit, Harsh, Manohar, Yash, Shrestha",
+      },
+      { title: "Incorporated ", years: "April, 2025" },
+    ],
+  },
+
   {
     name: "QR CELEBRTIONS - “Scan, Plan and Celebrate”",
     bio: "QR Weds is a one-stop wedding solution that makes wedding planning easy and smart. From cards, vehicles, and catering to photography and decoration, we handle it all. With our unique QR smart cards, guests can access all wedding details, live location, and gift options with just one scan — blending tradition with technology.",
@@ -47,19 +77,6 @@ const founders = [
       { title: "Founder & CEO", years: "Mr. Aryan Ray" },
       { title: "Incorporated ", years: "5th may 2025" },
       { title: "Branch", years: "MECHANICAL ENGG. DEPARTMENT, 2K23" },
-    ],
-  },
-  {
-    name: "YuMedic(Milo Doctor)",
-    bio: "Yumedics is a fast-growing skincare brand that uses innovative and science-backed ingredients to improve, protect, and enhance the natural  glow of the skin.The brand offers a wide range of products, including face creams, acne treatment brightening serums, sunscreens, and advanced hair care solutions.",
-    image: "/incubation/HD.webp",
-    socials: {
-      LinkedIn: "https://linkedin.com/",
-      instagram: "https://instagram.com/",
-    },
-    experience: [
-      { title: "Founder & CEO", years: "Mr. Karan Raj Mehta" },
-      { title: "Batch", years: "2K16" },
     ],
   },
   // {
@@ -113,7 +130,6 @@ const founders = [
   //     { title: "Founder & CEO", years: "Mr. Kumar Aryan & Mr. Adarsh Tirkey" },
   //   ],
   // },
-  
 ];
 
 const page = () => {
@@ -124,11 +140,11 @@ const page = () => {
           <h2 className="font-calsans text-5xl md:text-5xl lg:text-7xl md:leading-loose mb-8">
             Empowering{" "}
             <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700"></span>{" "}
-            <span className="text-accent">Startups</span>
+            <span className="text-accent">Startups</span>,
             <br />
-            <span className="text-secondary">Building</span>{" "}
+            <span className="text-secondary">Building Entrepreneurs</span>{" "}
             <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700"></span>{" "}
-            Entrepreneurs for Tomorrow
+            for Tomorrow
           </h2>
 
           <p className="text-sm md:text-base max-w-xl text-secondary mb-7">
@@ -169,7 +185,7 @@ const page = () => {
                 <div className="absolute bottom-4 right-4 flex space-x-2">
                   {/* Social media icons */}
                   <a
-                    href={founder.socials.dribbble}
+                    href={founder.socials.LinkedIn}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 bg-gray-100/40 rounded-full"

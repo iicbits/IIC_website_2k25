@@ -15,15 +15,17 @@ const page = () => {
             <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700"></span>{" "}
             <span className="text-accent">Innovation</span>
             <br />
+            <span className="text-secondary">Inspiring</span>{" "}
             <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700"></span>{" "}
-            Inspiring Ideas
+            Ideas
             <br />
-            <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700"></span>{" "}
-            Impacting the Future
+            <span className="text-secondary">Impacting </span>the Future{" "}
           </h2>
 
           <p className="text-sm md:text-base max-w-xl text-secondary mb-12">
-            We empower students and startups to transform visionary ideas into impactful solutions through mentorship, resources, and real world opportunities, turning creativity into lasting change.
+            We empower students and startups to transform visionary ideas into
+            impactful solutions through mentorship, resources, and real world
+            opportunities, turning creativity into lasting change.
           </p>
 
           <button className="flex items-center space-x-2">
@@ -39,10 +41,22 @@ const page = () => {
             Who are we?
           </h2>
           <p className="text-sm md:text-base max-w-xl text-left text-secondary mb-6">
-            We are the official Entrepreneurship Cell of BIT Sindri, a council dedicated to nurturing innovation, creativity, and entrepreneurial mindset within the student community. Our council works to create an environment where ideas are explored, refined, and developed into meaningful solutions. Through startup-oriented initiatives, idea-development programs, innovation-based learning experiences, and a range of activities such as workshops, seminars, mentorship sessions, idea-pitching events, hackathons, and other experiential opportunities, we help students gain the exposure and practical understanding needed to navigate the startup ecosystem.
+            We are the official Entrepreneurship Cell of BIT Sindri, a council
+            dedicated to nurturing innovation, creativity, and entrepreneurial
+            mindset within the student community. Our council works to create an
+            environment where ideas are explored, refined, and developed into
+            meaningful solutions. Through startup-oriented initiatives,
+            idea-development programs, innovation-based learning experiences,
+            and a range of activities such as workshops, seminars, mentorship
+            sessions, idea-pitching events, hackathons, and other experiential
+            opportunities, we help students gain the exposure and practical
+            understanding needed to navigate the startup ecosystem.
           </p>
           <p className="text-sm md:text-base max-w-xl text-left text-secondary mb-6">
-            We enable students to build the confidence and skills needed to navigate the startup ecosystem. We strive to inspire the next generation of founders, innovators, and leaders who can drive impactful change in technology, society, and industry. 
+            We enable students to build the confidence and skills needed to
+            navigate the startup ecosystem. We strive to inspire the next
+            generation of founders, innovators, and leaders who can drive
+            impactful change in technology, society, and industry.
           </p>
         </main>
         <div className="md:w-1/2 px-4">
@@ -64,7 +78,12 @@ const page = () => {
           </div>
           <h2 className="text-2xl font-semibold mt-2">Mission</h2>
           <p className="text-secondary mt-2">
-            Our mission is to cultivate a vibrant entrepreneurial ecosystem that encourages innovation, supports idea development, and empowers students to develop their ideas into real, innovative and impactful solutions. We aim to provide mentorship, resources, and experiential learning opportunities that help young innovators grow into confident and capable startup leaders.
+            Our mission is to cultivate a vibrant entrepreneurial ecosystem that
+            encourages innovation, supports idea development, and empowers
+            students to develop their ideas into real, innovative and impactful
+            solutions. We aim to provide mentorship, resources, and experiential
+            learning opportunities that help young innovators grow into
+            confident and capable startup leaders.
           </p>
         </div>
         <div className="px-4 md:px-16">
@@ -73,7 +92,12 @@ const page = () => {
           </div>
           <h2 className="text-2xl font-semibold mt-2">Vision</h2>
           <p className="text-secondary mt-2">
-            Our vision is to build a dynamic entrepreneurial culture at BIT Sindri that sparks innovative thinking, strengthens entrepreneurial drive, and empowers students to build solutions that make a real difference. We aim to shape future founders and leaders who contribute meaningfully to technological advancement, industry growth, and societal progress. 
+            Our vision is to build a dynamic entrepreneurial culture at BIT
+            Sindri that sparks innovative thinking, strengthens entrepreneurial
+            drive, and empowers students to build solutions that make a real
+            difference. We aim to shape future founders and leaders who
+            contribute meaningfully to technological advancement, industry
+            growth, and societal progress.
           </p>
         </div>
       </div>
@@ -143,13 +167,14 @@ const spotlightItems = [
   },
   {
     id: 3,
-        image: "/events/spot8.webp",
-    title: "President Prof. Prakash recognised for Excellence by Governer, Govt. of Jharkhand.",
+    image: "/events/spot8.webp",
+    title:
+      "President Prof. Prakash recognised for Excellence by Governer, Govt. of Jharkhand.",
     subtitle: "",
   },
   {
     id: 4,
-        image: "/events/spot2.webp",
+    image: "/events/spot2.webp",
     title: "TEAM ARPIT from BIT Sindri at CANSAT Student India Competition.",
     subtitle: "",
   },
