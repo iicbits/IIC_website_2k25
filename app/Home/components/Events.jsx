@@ -9,15 +9,15 @@ const Events = () => {
   const testimonials = [
     {
       description:
-        "Showcase your ideas, compete with top innovators, and earn funding to turn your concept into a real venture.",
-      position: "Idea Pitching Competition",
-      image: "/events/ipc1.webp", // Replace with actual image path
-    },
-    {
-      description:
         "A 36-hour innovation marathon where students solve real challenges, build creative solutions, and showcase teamwork under pressure.",
       position: "Innovathon",
       image: "/events/inno1.webp", // Replace with actual image path
+    },
+    {
+      description:
+        "Showcase your ideas, compete with top innovators, and earn funding to turn your concept into a real venture.",
+      position: "Idea Pitching Competition",
+      image: "/events/ipc1.webp", // Replace with actual image path
     },
     {
       description:

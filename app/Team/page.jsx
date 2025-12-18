@@ -14,7 +14,7 @@ const TeamSection = () => {
     {
       id: 1,
       name: "Prof. Pankaj Rai",
-      role: "Chairman IIC BIT Sindri",
+      role: "Chairman IIC",
       image: "/team/pankajrai.webp",
       social: {
         email: "#",
@@ -23,9 +23,9 @@ const TeamSection = () => {
     },
     {
       id: 2,
-      name: "Lisa Ningrum",
-      role: "Chief Technology Officer",
-      image: "/team/prakash.webp",
+      name: "Prof. Prakash Kumar",
+      role: "President IIC",
+      image: "/team/prakash.jpg",
       social: {
         email: "#",
         linkedin: "#",
@@ -33,8 +33,8 @@ const TeamSection = () => {
     },
     {
       id: 3,
-      name: "Ryan Wilujeng",
-      role: "Head of Operations",
+      name: "Dr. S C Dutta",
+      role: "Vice President IIC",
       image: "/team/sc.webp",
       social: {
         email: "#",
@@ -42,9 +42,19 @@ const TeamSection = () => {
       },
     },
     {
+      id: 13,
+      name: "Dr. Rahul Kumar",
+      role: "Convener",
+      image: "/team/rahul.webp",
+      social: {
+        email: "#",
+        linkedin: "#",
+      },
+    },
+    {
       id: 4,
-      name: "Sarah Kumala",
-      role: "VP of Customer Success",
+      name: "Dr. Mukesh Chandra",
+      role: "Innovation Activity Coordinator",
       image: "/team/mukesh.webp",
       social: {
         email: "#",
@@ -53,8 +63,8 @@ const TeamSection = () => {
     },
     {
       id: 5,
-      name: "Sarah Kumala",
-      role: "VP of Customer Success",
+      name: "Mr. Khustar Ansari",
+      role: "Hackathon Coordinator",
       image: "/team/khustar.webp",
       social: {
         email: "#",
@@ -63,8 +73,8 @@ const TeamSection = () => {
     },
     {
       id: 6,
-      name: "Sarah Kumala",
-      role: "VP of Customer Success",
+      name: "Mr. Vijay Besra",
+      role: "ARIIA Coordinator",
       image: "/team/vijay.webp",
       social: {
         email: "#",
@@ -73,8 +83,8 @@ const TeamSection = () => {
     },
     {
       id: 7,
-      name: "Sarah Kumala",
-      role: "VP of Customer Success",
+      name: "Dr. Kashif Hasan Kazmi",
+      role: "Internal Event Coordinator",
       image: "/team/kashif.webp",
       social: {
         email: "#",
@@ -93,8 +103,8 @@ const TeamSection = () => {
     },
     {
       id: 9,
-      name: "Sarah Kumala",
-      role: "VP of Customer Success",
+      name: "Mr. Sanjay Oraon",
+      role: "IPR Activity Coordinator",
       image: "/team/sanjay.webp",
       social: {
         email: "#",
@@ -103,28 +113,28 @@ const TeamSection = () => {
     },
     {
       id: 10,
-      name: "Sarah Kumala",
-      role: "VP of Customer Success",
+      name: "Dr. Priyanka Kumari",
+      role: "NIRF Coordinator",
       image: "/team/mam.webp",
       social: {
         email: "#",
         linkedin: "#",
       },
     },
-    {
-      id: 11,
-      name: "Sarah Kumala",
-      role: "VP of Customer Success",
-      image: "/team/manjumam.webp",
-      social: {
-        email: "#",
-        linkedin: "#",
-      },
-    },
+    // {
+    //   id: 11,
+    //   name: "Sarah Kumala",
+    //   role: "VP of Customer Success",
+    //   image: "/team/manjumam.webp",
+    //   social: {
+    //     email: "#",
+    //     linkedin: "#",
+    //   },
+    // },
     {
       id: 12,
-      name: "Sarah Kumala",
-      role: "VP of Customer Success",
+      name: "Dr. Abhijeet Anand",
+      role: "Internship Coordinator",
       image: "/team/abhijit.webp",
       social: {
         email: "#",
@@ -133,19 +143,9 @@ const TeamSection = () => {
     },
     {
       id: 13,
-      name: "Sarah Kumala",
-      role: "VP of Customer Success",
+      name: "Mr. Roshan Shankar",
+      role: "Research & Development Coordinator",
       image: "/team/roshan.webp",
-      social: {
-        email: "#",
-        linkedin: "#",
-      },
-    },
-    {
-      id: 13,
-      name: "Sarah Kumala",
-      role: "VP of Customer Success",
-      image: "/team/rahul.webp",
       social: {
         email: "#",
         linkedin: "#",
