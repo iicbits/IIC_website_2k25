@@ -24,12 +24,14 @@ const page = () => {
 
     try {
       const response = await contactUsData(data);
-      console.log(response);
-      setSubmitMessage("Message sent successfully!");
+      //console.log(response);
+      setSubmitMessage(
+        "We have received your message! Thanks for reaching out :)"
+      );
       reset();
     } catch (error) {
       setSubmitMessage("Failed to send message. Please try again.");
-      console.error(error);
+      //console.error(error);
     } finally {
       setIsSubmitting(false);
     }
@@ -50,7 +52,7 @@ const page = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center w-full z-20">
           {/* Left Section */}
           <div className="text-white space-y-6">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+            <h1 className="text-4xl md:text-5xl font-bold leading-tight">
               Need help? or Have suggestions!
             </h1>
             <p className="text-lg md:text-xl text-gray-300 font-light">
@@ -172,7 +174,7 @@ const page = () => {
               {submitMessage && (
                 <p
                   className={`text-sm text-center ${
-                    submitMessage.includes("success")
+                    submitMessage.includes("received")
                       ? "text-green-500"
                       : "text-red-500"
                   }`}

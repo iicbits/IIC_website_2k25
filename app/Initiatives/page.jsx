@@ -210,7 +210,7 @@ const page = () => {
                 Create Something Big
               </h3>
               <p className="text-gray-400 mt-4 max-w-xl text-center">
-                To Collaborate with us, reach us out at iicbit@bitsindri.ac.in
+                To Collaborate with us, reach us out at iicbits@bitsindri.ac.in
                 or simply fill out the contact form
               </p>
               <Link

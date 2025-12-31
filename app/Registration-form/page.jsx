@@ -16,6 +16,8 @@ const IICRegistrationForm = () => {
 
   const [isFormAlreadySubmitted, setIsFormAlreadySubmitted] = useState(false);
   const [formSubmitted, setFormSubmitted] = useState(false);
+  const [submitMessage, setSubmitMessage] = useState("");
+  const [submitStatus, setSubmitStatus] = useState("");
 
   useEffect(() => {
     const formStatus = localStorage.getItem("skjghwfjbadfbsuasf");
@@ -44,6 +46,9 @@ const IICRegistrationForm = () => {
     // Handle form submission here
     const response = await registrationData(data);
     console.log(response);
+    setSubmitMessage(response.message);
+    setSubmitStatus(response.status);
+
     reset();
     setFormSubmitted(true);
   };
@@ -54,32 +59,62 @@ const IICRegistrationForm = () => {
         // Show message if form submitted
         <div className="bg-white max-w-3xl mx-auto shadow-xl rounded-2xl p-8 md:p-10 text-center">
           <div className="mb-6">
-            <div className="mx-auto w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-4">
-              <svg
-                className="w-8 h-8 text-orange-500"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </div>
+            {submitStatus === "success" ? (
+              <div className="mx-auto w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-4">
+                <svg
+                  className="w-8 h-8 text-orange-500"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </div>
+            ) : (
+              <div className="mx-auto w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-4">
+                <svg
+                  className="w-8 h-8 text-red-500"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.536-10.95a1 1 0 00-1.414-1.414L10 8.586 7.879 6.464a1 1 0 00-1.414 1.414L8.586 10l-2.121 2.121a1 1 0 101.414 1.414L10 11.414l2.121 2.121a1 1 0 001.414-1.414L11.414 10l2.121-2.121z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </div>
+            )}
+
             <h2 className="text-2xl font-bold text-gray-900 mb-2">
-              Your Response has been recorded.
+              {submitMessage}
             </h2>
-            <p className="text-gray-600">
-              Thanks for your response. We will get back to you soon via email.
-              For any queries, please mail us at{" "}
-              <a
-                href="mailto:iicbits@bitsindri.ac.in"
-                className="text-orange-500 hover:underline"
-              >
-                iicbits@bitsindri.ac.in
-              </a>
-            </p>
+            {submitStatus === "success" ? (
+              <p className="text-gray-600">
+                Thanks for your response. We will get back to you soon. For any
+                queries, please mail us at{" "}
+                <a
+                  href="mailto:iicbits@bitsindri.ac.in"
+                  className="text-orange-500 hover:underline"
+                >
+                  iicbits@bitsindri.ac.in
+                </a>
+              </p>
+            ) : (
+              <p className="text-gray-600">
+                If you want to change the details, please mail your required
+                changes at{" "}
+                <a
+                  href="mailto:iicbits@bitsindri.ac.in"
+                  className="text-orange-500 hover:underline"
+                >
+                  iicbits@bitsindri.ac.in
+                </a>
+              </p>
+            )}
           </div>
         </div>
       ) : (

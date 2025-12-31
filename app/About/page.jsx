@@ -74,20 +74,6 @@ const page = () => {
       <div className="max-w-7xl grid grid-cols-1 md:grid-cols-2 mx-auto gap-8 md:gap-20 mt-8 mb-16">
         <div className="px-4 md:px-16">
           <div className="p-3 rounded-full bg-black w-fit text-white">
-            <FaMapPin />
-          </div>
-          <h2 className="text-2xl font-semibold mt-2">Mission</h2>
-          <p className="text-secondary mt-2">
-            Our mission is to cultivate a vibrant entrepreneurial ecosystem that
-            encourages innovation, supports idea development, and empowers
-            students to develop their ideas into real, innovative and impactful
-            solutions. We aim to provide mentorship, resources, and experiential
-            learning opportunities that help young innovators grow into
-            confident and capable startup leaders.
-          </p>
-        </div>
-        <div className="px-4 md:px-16">
-          <div className="p-3 rounded-full bg-black w-fit text-white">
             <LuLocateFixed />
           </div>
           <h2 className="text-2xl font-semibold mt-2">Vision</h2>
@@ -98,6 +84,20 @@ const page = () => {
             difference. We aim to shape future founders and leaders who
             contribute meaningfully to technological advancement, industry
             growth, and societal progress.
+          </p>
+        </div>
+        <div className="px-4 md:px-16">
+          <div className="p-3 rounded-full bg-black w-fit text-white">
+            <FaMapPin />
+          </div>
+          <h2 className="text-2xl font-semibold mt-2">Mission</h2>
+          <p className="text-secondary mt-2">
+            Our mission is to cultivate a vibrant entrepreneurial ecosystem that
+            encourages innovation, supports idea development, and empowers
+            students to develop their ideas into real, innovative and impactful
+            solutions. We aim to provide mentorship, resources, and experiential
+            learning opportunities that help young innovators grow into
+            confident and capable startup leaders.
           </p>
         </div>
       </div>
