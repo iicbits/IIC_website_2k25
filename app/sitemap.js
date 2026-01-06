@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = "http://iicbits.org";
+  const baseUrl = "https://iic.bitsindri.ac.in/";
 
   return [
     {
@@ -12,6 +12,12 @@ export default function sitemap() {
       url: `${baseUrl}/about`,
       lastModified: new Date(),
       changeFrequency: "yearly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/BITS_TEXMiN`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
       priority: 0.9,
     },
     {

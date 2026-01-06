@@ -47,19 +47,19 @@ export const metadata = {
       },
     ],
   },
-  metadataBase: new URL("http://iicbits.org"),
+  metadataBase: new URL("https://iic.bitsindri.ac.in"),
   alternates: {
-    canonical: "http://iicbits.org",
+    canonical: "https://iic.bitsindri.ac.in",
   },
   openGraph: {
     title: "IIC BIT Sindri | Institution’s Innovation Council & E-Cell",
     description:
       "Fostering innovation and entrepreneurship at BIT Sindri through initiatives, incubation, and student-driven innovation programs.",
-    url: "http://iicbits.org",
+    url: "https://iic.bitsindri.ac.in",
     siteName: "IIC BIT Sindri",
     images: [
       {
-        url: "/og-image.jpg", // Replace with your OG image path
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "IIC BIT Sindri - Innovation & Entrepreneurship",
@@ -76,13 +76,16 @@ export const metadata = {
     images: ["/og-image.jpg"],
   },
   keywords: [
+    "BIT Sindri",
     "IIC BIT Sindri",
+    "iicbits",
     "Institution’s Innovation Council",
     "E-Cell BIT Sindri",
-    "Entrepreneurship BIT Sindri",
+    "Entrepreneurship Cell BIT Sindri",
     "Startup BIT Sindri",
-    "Innovation BIT Sindri",
-    "Incubation BIT Sindri",
+    "Incubation Center BIT Sindri",
+    "Texmin BIT Sindri",
+    "Best Club of BIT Sindri",
   ],
 };
 
@@ -90,7 +93,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* JSON-LD Structured Data for Rich Results */}
+        {/* JSON-LD Structured Data for better SEO */}
         <Script
           id="structured-data"
           type="application/ld+json"
@@ -100,74 +103,54 @@ export default function RootLayout({ children }) {
               "@type": "Organization",
               name: "Institution’s Innovation Council BIT Sindri",
               alternateName: "IIC | E-Cell BIT Sindri",
-              url: "http://iicbits.org",
-              logo: "http://iicbits.org/logo.png", // Replace with your actual logo URL
-              sameAs: [
-                "https://www.linkedin.com/company/iic-bit-sindri/",
-                "https://www.instagram.com/iicbitsindri/",
-                "https://twitter.com/iicbitsindri",
-              ],
-              description:
-                "Institution’s Innovation Council (IIC) cum E-Cell BIT Sindri promotes a culture of innovation, startup creation, and entrepreneurship through various programs, events, and incubation support.",
-              department: {
-                "@type": "CollegeOrUniversity",
-                name: "Birsa Institute of Technology, Sindri",
-                url: "https://bitsindri.ac.in/",
-              },
+              url: "https://iic.bitsindri.ac.in",
+              logo: "https://iic.bitsindri.ac.in/logo.png",
               hasPart: [
                 {
                   "@type": "WebPage",
                   name: "Home",
-                  url: "http://iicbits.org",
-                  description:
-                    "Discover IIC & E-Cell BIT Sindri — nurturing innovation and entrepreneurship on campus.",
+                  url: "https://iic.bitsindri.ac.in",
                 },
                 {
                   "@type": "WebPage",
                   name: "About",
-                  url: "http://iicbits.org/about",
-                  description:
-                    "Learn about the vision, mission, and objectives of IIC BIT Sindri.",
+                  url: "https://iic.bitsindri.ac.in/about",
+                },
+                {
+                  "@type": "WebPage",
+                  name: "TEXMiN BIT Sindri",
+                  url: "https://iic.bitsindri.ac.in/BITS_TEXMiN",
                 },
                 {
                   "@type": "WebPage",
                   name: "Initiatives",
-                  url: "http://iicbits.org/initiatives",
-                  description:
-                    "Explore our innovation and entrepreneurship initiatives that empower student ideas.",
+                  url: "https://iic.bitsindri.ac.in/initiatives",
                 },
                 {
                   "@type": "WebPage",
                   name: "Incubation",
-                  url: "http://iicbits.org/incubation",
-                  description:
-                    "Get incubation support for your startup ideas through our mentorship and resources.",
+                  url: "https://iic.bitsindri.ac.in/incubation",
                 },
                 {
                   "@type": "WebPage",
                   name: "Team",
-                  url: "http://iicbits.org/team",
-                  description:
-                    "Meet the dedicated team behind IIC BIT Sindri driving innovation forward.",
+                  url: "https://iic.bitsindri.ac.in/team",
                 },
                 {
                   "@type": "WebPage",
                   name: "Gallery",
-                  url: "http://iicbits.org/gallery",
-                  description:
-                    "Browse moments from our events, hackathons, and innovation challenges.",
+                  url: "https://iic.bitsindri.ac.in/gallery",
                 },
                 {
                   "@type": "WebPage",
                   name: "Contact",
-                  url: "http://iicbits.org/contact",
-                  description:
-                    "Reach out to IIC BIT Sindri for collaborations, queries, and opportunities.",
+                  url: "https://iic.bitsindri.ac.in/contact",
                 },
               ],
               potentialAction: {
                 "@type": "SearchAction",
-                target: "http://iicbits.org/search?q={search_term_string}",
+                target:
+                  "https://iic.bitsindri.ac.in/search?q={search_term_string}",
                 "query-input": "required name=search_term_string",
               },
             }),
