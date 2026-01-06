@@ -93,6 +93,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <meta
+          name="google-site-verification"
+          content="SLrqTUhSx6A1cqM7oGtbfal7cv_j7XUNYeJrL3Ko6jg"
+        />
+
         {/* JSON-LD Structured Data for better SEO */}
         <Script
           id="structured-data"
