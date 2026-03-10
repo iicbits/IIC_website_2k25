@@ -371,7 +371,7 @@ const faculties = [
   },
   {
     id: 9,
-    name: "Mr. Izhar Hussain,
+    name: "Mr. Izhar Hussain",
     role: "Internal Event Coordinator",
     image: "/team/fac.webp",
     social: {
