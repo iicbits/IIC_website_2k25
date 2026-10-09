@@ -359,7 +359,7 @@ const TeamSection = () => {
         // Design
         {
           id: 15,
-          name: "Ravikant",
+          name: "Ravi Kant",
           role: "Design",
           image: "/team/ravikant.png",
           social: {
