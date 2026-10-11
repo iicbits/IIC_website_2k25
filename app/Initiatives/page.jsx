@@ -12,7 +12,9 @@ const services = [
    category: "E-Summit '26",
    description:
      "E-SUMMIT’26 is the flagship national-level entrepreneurship and innovation summit organized for the first time by the Institution’s Innovation Council (IIC 8.0) at BIT Sindri from April 17th–19th, 2026. Bringing together 10,000+ students, 250+ startups, venture capitalists, and industry experts, the summit features startup pitching sessions, hackathons, expert talks, panel discussions, and hands-on workshops with a ₹25L+ prize pool.",
-   image: ["/events/esum01.jpeg",
+   image: ["/events/esum06.jpg",
+    "/events/esum05.jpg",
+    "/events/esum03.jpg",
       "/events/esum02.webp",
    ],
  },
@@ -25,6 +27,8 @@ const services = [
      "/events/tex01.webp",
      "/events/tex02.webp",
      "/events/tex03.webp",
+     "/events/tex06.jpg",
+     "/events/tex07.jpg",
    ],
  },
  {
@@ -50,6 +54,7 @@ const services = [
      "/events/udan01.webp",
      "/events/udan02.webp",
      "/events/udan03.webp",
+     "/events/20260417_174022.heif.jpeg",
    ],
  },
  {
@@ -58,11 +63,12 @@ const services = [
    description:
      "INNOVATHON 3.0 is a 36-hour national-level innovation hackathon at E-Summit'26 organized by IIC BIT Sindri. Participants build functional prototypes and practical, industry-oriented technology solutions in AI/ML, automation, and smart manufacturing under expert mentorship.",
    image: [
-     "/events/inno01.webp",
-     "/events/inno02.webp",
+     "/events/inno09.jpg",
+     "/events/inno07.jpg",
      "/events/inno03.webp",
      "/events/inno04.webp",
      "/events/inno05.webp",
+     "/events/inno08.jpg"
    ],
  },
  {
@@ -74,6 +80,8 @@ const services = [
      "/events/equt01.webp",
      "/events/equt02.webp",
      "/events/equt03.webp",
+     "/events/equt04.jpg",
+     "/events/equt07.jpg",
    ],
  },
  {
@@ -94,10 +102,12 @@ const services = [
    description:
      "Keynote sessions and panel discussions at E-Summit'26 featuring seasoned entrepreneurs, venture capitalists, industry leaders, and digital creators sharing startup wisdom and insights on emerging tech.",
    image: [
+     "/events/ses06.jpg",
+     "/events/ses05.jpg",
      "/events/ses04.webp",
-     "/events/ses02.webp",
-     "/events/ses03.webp",
-     "/events/ses01.webp",
+     "/events/ses07.jpg",
+     
+     
    ],
  },
  {
