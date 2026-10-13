@@ -11,11 +11,11 @@ const services = [
    title: "E-SUMMIT '26",
    category: "E-Summit '26",
    description:
-     "E-SUMMIT’26 is the flagship national-level entrepreneurship and innovation summit organized for the first time by the Institution’s Innovation Council (IIC 8.0) at BIT Sindri from April 17th–19th, 2026. Bringing together 10,000+ students, 250+ startups, venture capitalists, and industry experts, the summit features startup pitching sessions, hackathons, expert talks, panel discussions, and hands-on workshops with a ₹25L+ prize pool.",
+     "E-SUMMIT’26 is the flagsh    p national-level entrepreneurship and innovation summit organized for the first time by the Institution’s Innovation Council (IIC 8.0) at BIT Sindri from April 17th–19th, 2026. Bringing together 10,000+ students, 250+ startups, venture capitalists, and industry experts, the summit features startup pitching sessions, hackathons, expert talks, panel discussions, and hands-on workshops with a ₹25L+ prize pool.",
    image: ["/events/esum06.jpg",
-    "/events/esum05.jpg",
-    "/events/esum03.jpg",
-      "/events/esum02.webp",
+           "/events/esum05.jpg",
+           "/events/esum03.jpg",
+           "/events/esum04.jpg", 
    ],
  },
  {
@@ -31,12 +31,12 @@ const services = [
      "/events/tex07.jpg",
    ],
  },
- {
+ {                      
    title: "Being an Entrepreneur",
    category: "E-Summit '26",
    description:
      "Being an Entrepreneur is a case-based competition at E-Summit'26 focused on real-world business strategy, startup problem-solving, and critical decision-making under realistic market scenarios.",
-   image: [
+   image: ["/events/being-entrepreneur-session.png",
      "/events/entr01.webp",
      "/events/entr03.webp",
      "/events/entr04.webp",
@@ -77,6 +77,7 @@ const services = [
    description:
      "A premier venture capital and financial simulation competition at E-Summit'26, testing participants on company valuation, venture equity, investment rounds, and portfolio decision-making.",
    image: [
+     "/events/equity-minds-session.png",
      "/events/equt01.webp",
      "/events/equt02.webp",
      "/events/equt03.webp",
@@ -257,6 +258,7 @@ const InitiativesPage = () => {
            {filteredServices.map((service) => {
              const slideIdx = slideIndices[service.title] || 0;
              const images = service.image || [];
+             const mediaCount = images.length;
 
 
              return (
@@ -275,11 +277,11 @@ const InitiativesPage = () => {
                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                          className="object-cover group-hover:scale-105 transition-transform duration-500"
                        />
-                       {images.length > 1 && (
+                       {mediaCount > 1 && (
                          <div className="absolute inset-0 flex items-center justify-between p-2 opacity-0 group-hover:opacity-100 transition-opacity">
                            <button
                              onClick={() =>
-                               prevSlide(service.title, images.length)
+                               prevSlide(service.title, mediaCount)
                              }
                              className="w-7 h-7 rounded-full bg-black/60 text-white flex items-center justify-center hover:bg-black transition text-sm shadow"
                              aria-label="Previous image"
@@ -288,7 +290,7 @@ const InitiativesPage = () => {
                            </button>
                            <button
                              onClick={() =>
-                               nextSlide(service.title, images.length)
+                               nextSlide(service.title, mediaCount)
                              }
                              className="w-7 h-7 rounded-full bg-black/60 text-white flex items-center justify-center hover:bg-black transition text-sm shadow"
                              aria-label="Next image"
@@ -297,9 +299,9 @@ const InitiativesPage = () => {
                            </button>
                          </div>
                        )}
-                       {images.length > 1 && (
+                       {mediaCount > 1 && (
                          <div className="absolute bottom-2 right-2 bg-black/60 backdrop-blur-sm text-white text-[10px] px-2 py-0.5 rounded-full font-mono">
-                           {slideIdx + 1}/{images.length}
+                           {slideIdx + 1}/{mediaCount}
                          </div>
                        )}
                      </div>
@@ -388,4 +390,3 @@ const InitiativesPage = () => {
 
 
 export default InitiativesPage;
-

@@ -1,121 +1,130 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
 import Image from "next/image";
 
-const projectData = [
-  {
-    id: 1,
-    imageUrl: "/gallery/ipc1.webp",
-  },
-  {
-    id: 2,
-    imageUrl: "/gallery/inno1.webp",
-  },
-  {
-    id: 3,
-    imageUrl: "/gallery/tex3.webp",
-  },
-  {
-    id: 4,
-    imageUrl: "/gallery/ideo2.webp",
-  },
+const galleryImages = [
+  { src: "/gallery/ipc1.webp", title: "Idea Pitching Competition" },
+  { src: "/gallery/inno1.webp", title: "Innovathon" },
+  { src: "/gallery/tex3.webp", title: "TEXcelerate" },
+  { src: "/gallery/ideo2.webp", title: "IDEOGRAPH" },
+  { src: "/events/esum06.jpg", title: "E-SUMMIT '26" },
+  { src: "/events/esum05.jpg", title: "E-SUMMIT '26" },
+  { src: "/events/esum03.jpg", title: "E-SUMMIT '26" },
+  { src: "/events/esum04.jpg", title: "E-SUMMIT '26" },
+  { src: "/events/tex01.webp", title: "TEXcelerate 2026" },
+  { src: "/events/tex02.webp", title: "TEXcelerate 2026" },
+  { src: "/events/tex03.webp", title: "TEXcelerate 2026" },
+  { src: "/events/tex06.jpg", title: "TEXcelerate 2026" },
+  { src: "/events/tex07.jpg", title: "TEXcelerate 2026" },
+  { src: "/events/entr01.webp", title: "Being an Entrepreneur" },
+  { src: "/events/entr03.webp", title: "Being an Entrepreneur" },
+  { src: "/events/entr04.webp", title: "Being an Entrepreneur" },
+  { src: "/events/entr05.webp", title: "Being an Entrepreneur" },
+  { src: "/events/udan01.webp", title: "UDAAN UG Fellowship" },
+  { src: "/events/udan02.webp", title: "UDAAN UG Fellowship" },
+  { src: "/events/udan03.webp", title: "UDAAN UG Fellowship" },
+  { src: "/events/20260417_174022.heif.jpeg", title: "UDAAN UG Fellowship" },
+  { src: "/events/inno09.JPG", title: "INNOVATHON 3.0" },
+  { src: "/events/inno07.jpg", title: "INNOVATHON 3.0" },
+  { src: "/events/inno03.webp", title: "INNOVATHON 3.0" },
+  { src: "/events/inno04.webp", title: "INNOVATHON 3.0" },
+  { src: "/events/inno05.webp", title: "INNOVATHON 3.0" },
+  { src: "/events/inno08.jpg", title: "INNOVATHON 3.0" },
+  { src: "/events/equt01.webp", title: "Equity Minds" },
+  { src: "/events/equt02.webp", title: "Equity Minds" },
+  { src: "/events/equt03.webp", title: "Equity Minds" },
+  { src: "/events/equt04.jpg", title: "Equity Minds" },
+  { src: "/events/equt07.jpg", title: "Equity Minds" },
+  { src: "/events/bild01.webp", title: "BuildX EXPO" },
+  { src: "/events/bild02.webp", title: "BuildX EXPO" },
+  { src: "/events/bild03.webp", title: "BuildX EXPO" },
+  { src: "/events/bild04.webp", title: "BuildX EXPO" },
+  { src: "/events/ses06.jpg", title: "E-Summit Keynotes & Talks" },
+  { src: "/events/ses05.jpg", title: "E-Summit Keynotes & Talks" },
+  { src: "/events/ses04.webp", title: "E-Summit Keynotes & Talks" },
+  { src: "/events/ses07.jpg", title: "E-Summit Keynotes & Talks" },
+  { src: "/events/mms2.jpeg", title: "MENTOR MENTEE SCHEME" },
+  { src: "/events/mms1.jpeg", title: "MENTOR MENTEE SCHEME" },
+  { src: "/events/mms3.jpeg", title: "MENTOR MENTEE SCHEME" },
+  { src: "/events/mms4.jpeg", title: "MENTOR MENTEE SCHEME" },
+  { src: "/events/mms5.jpeg", title: "MENTOR MENTEE SCHEME" },
+  { src: "/events/ipc1.webp", title: "Idea Pitching Competition" },
+  { src: "/events/ipc2.webp", title: "Idea Pitching Competition" },
+  { src: "/events/ideo2.webp", title: "IDEOGRAPH" },
+  { src: "/events/ideo1.webp", title: "IDEOGRAPH" },
+  { src: "/events/ideo3.webp", title: "IDEOGRAPH" },
+  { src: "/events/ideo4.webp", title: "IDEOGRAPH" },
+  { src: "/events/sih3.webp", title: "SIH Internals" },
+  { src: "/events/sih2.webp", title: "SIH Internals" },
+  { src: "/events/sih1.webp", title: "SIH Internals" },
+  { src: "/events/sih4.webp", title: "SIH Internals" },
 ];
 
-const categories = ["All"];
-
-const page = () => {
-  const [activeFilter, setActiveFilter] = useState("All");
-
-  const filteredProjects = useMemo(() => {
-    if (activeFilter === "All") {
-      return projectData;
-    }
-    return projectData.filter((project) => project.category === activeFilter);
-  }, [activeFilter]);
-
-  return (
-    <section className="">
-      <div className="min-h-[60vh] bg-foreground">
-        <main className="flex flex-col items-center justify-center text-center py-20 px-4 md:px-8 lg:px-16">
-          <h2 className="font-calsans text-5xl md:text-5xl lg:text-7xl md:leading-loose mb-8">
-            A{" "}
-            <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700"></span>{" "}
-            <span className="text-accent">Glimpse</span>
-            <br />
-            <span className="text-secondary">into</span>{" "}
-            <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700"></span>{" "}
-            Our Journey
-          </h2>
-
-          <p className="text-sm md:text-base max-w-xl text-secondary mb-12">
-            Explore moments of innovation, creativity, and collaboration captured from our events, workshops, and startup initiatives.
-          </p>
-
-          <button className="flex items-center space-x-2">
-            <span>Scroll Down</span>
-            <span className="text-lg animate-bounce">↓</span>
-          </button>
-        </main>
-      </div>
-
-      <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <p className="text-secondary mb-4">(Archives)</p>
-        <h2 className="text-4xl sm:text-5xl lg:text-6xl font-calsans font-extrabold mb-8">
-          IIC Moments
+const GalleryPage = () => (
+  <section>
+    <div className="min-h-[60vh] bg-foreground">
+      <main className="flex flex-col items-center justify-center text-center py-20 px-4 md:px-8 lg:px-16">
+        <h2 className="font-calsans text-5xl md:text-5xl lg:text-7xl md:leading-loose mb-8">
+          A{" "}
+          <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700"></span>{" "}
+          <span className="text-accent">Glimpse</span>
+          <br />
+          <span className="text-secondary">into</span>{" "}
+          <span className="inline-block animate-[bounce_3s_ease-in-out_infinite] duration-700"></span>{" "}
+          Our Journey
         </h2>
 
-        {/* Filter Buttons */}
-        <div className="flex flex-wrap gap-x-8 gap-y-2 mb-12">
-          {categories.map((category) => (
-            <button
-              key={category}
-              onClick={() => setActiveFilter(category)}
-              className={`
-              text-base font-semibold border-b-2 transition duration-300 
-              ${
-                activeFilter === category
-                  ? "text-accent border-accent"
-                  : "text-gray-500 border-transparent hover:text-accent" // Inactive state
-              }
-            `}
-            >
-              {category}
-            </button>
-          ))}
-        </div>
+        <p className="text-sm md:text-base max-w-xl text-secondary mb-12">
+          Explore moments of innovation, creativity, and collaboration captured
+          from our events, workshops, and startup initiatives.
+        </p>
 
-        {/* Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredProjects.map((project) => (
+        <a href="#gallery-images" className="flex items-center space-x-2">
+          <span>Scroll Down</span>
+          <span className="text-lg animate-bounce">↓</span>
+        </a>
+      </main>
+    </div>
+
+    <div id="gallery-images" className="py-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
+        <p className="text-secondary mb-4">(Archives)</p>
+        <h2 className="text-4xl sm:text-5xl lg:text-6xl font-calsans font-extrabold">
+          IIC Moments
+        </h2>
+      </div>
+
+      <div className="gallery-marquee">
+        <div className="gallery-marquee-track">
+          {[0, 1].map((copy) => (
             <div
-              key={project.id}
-              className="overflow-hidden rounded-lg shadow-xl hover:shadow-2xl transition duration-300 transform hover:scale-[1.02]"
+              key={copy}
+              className="flex shrink-0 gap-6 pr-6"
+              aria-hidden={copy === 1}
             >
-              <div className="relative w-full aspect-[4/3] bg-gray-900">
-                <Image
-                  src={project.imageUrl}
-                  alt={`Image ${project.id}`}
-                  fill
-                  className="object-cover"
-                  priority // Load the first few images faster
-                />
-                <div className="absolute inset-0 flex items-end p-7 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300">
-                  <p className="text-white">{project.title}</p>
+              {galleryImages.map((item, index) => (
+                <div
+                  key={`${copy}-${index}`}
+                  className="group relative aspect-[4/3] w-[240px] shrink-0 overflow-hidden rounded-xl shadow-lg sm:w-[300px] md:w-[360px]"
+                >
+                  <Image
+                    src={item.src}
+                    alt={copy === 0 ? item.title : ""}
+                    fill
+                    sizes="(max-width: 640px) 240px, (max-width: 768px) 300px, 360px"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 flex items-end bg-black/50 p-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    <p className="text-white">{item.title}</p>
+                  </div>
                 </div>
-              </div>
+              ))}
             </div>
           ))}
-
-          {filteredProjects.length === 0 && (
-            <p className="text-gray-500 col-span-full text-center py-10">
-              No projects found in this category.
-            </p>
-          )}
         </div>
       </div>
-    </section>
-  );
-};
+    </div>
+  </section>
+);
 
-export default page;
+export default GalleryPage;
