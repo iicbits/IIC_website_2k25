@@ -123,6 +123,36 @@ const GalleryPage = () => (
           ))}
         </div>
       </div>
+      <div className="mt-6">
+        <div className="gallery-marquee" aria-hidden="true">
+          <div className="gallery-marquee-track gallery-marquee-track--reverse">
+            {[0, 1].map((copy) => (
+              <div
+                key={copy}
+                className="flex shrink-0 gap-6 pr-6"
+              >
+                {galleryImages.map((item, index) => (
+                  <div
+                    key={`${copy}-${index}`}
+                    className="group relative aspect-[4/3] w-[240px] shrink-0 overflow-hidden rounded-xl shadow-lg sm:w-[300px] md:w-[360px]"
+                  >
+                    <Image
+                      src={item.src}
+                      alt=""
+                      fill
+                      sizes="(max-width: 640px) 240px, (max-width: 768px) 300px, 360px"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 flex items-end bg-black/50 p-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                      <p className="text-white">{item.title}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 );

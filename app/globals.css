@@ -43,6 +43,10 @@ body {
   animation: gallery-scroll 100s linear infinite;
 }
 
+.gallery-marquee-track--reverse {
+  animation-name: gallery-scroll-reverse;
+}
+
 .gallery-marquee:hover .gallery-marquee-track {
   animation-play-state: paused;
 }
@@ -50,6 +54,15 @@ body {
 @keyframes gallery-scroll {
   to {
     transform: translateX(-50%);
+  }
+}
+
+@keyframes gallery-scroll-reverse {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
   }
 }
 

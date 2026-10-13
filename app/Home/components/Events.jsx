@@ -125,18 +125,6 @@ const Events = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-2">
-        <div className="w-full overflow-hidden rounded-3xl bg-white shadow-xl">
-          <iframe
-            src="https://www.instagram.com/reel/DaC3GeZTlnc/embed/"
-            title="E-Summit Instagram Reel"
-            className="h-[540px] w-full border-0"
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
-            allowFullScreen
-            loading="lazy"
-          />
-        </div>
-      </div>
     </section>
   );
 };
