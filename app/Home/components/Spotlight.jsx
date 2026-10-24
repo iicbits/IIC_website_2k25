@@ -7,7 +7,7 @@ const Spotlight = () => {
       id: 1,
       title:
         "President, Prof. Prakash Kumar welcomed SAIL Chairman Shri Amrendu Prakash",
-      image: "/events/spot10.jpg",
+      image: "/events/spot9.webp",
       span: "col-span-1",
     },
     {

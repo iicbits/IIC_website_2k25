@@ -124,6 +124,7 @@ const Events = () => {
           </div>
         </div>
       </div>
+
     </section>
   );
 };
