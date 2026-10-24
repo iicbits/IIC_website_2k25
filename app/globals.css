@@ -72,8 +72,39 @@ body {
   }
 }
 
+.success-marquee {
+  overflow: hidden;
+  position: relative;
+}
+
+.success-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: success-scroll 45s linear infinite;
+}
+
+.success-marquee:hover .success-marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes success-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .success-marquee-track {
+    animation: none;
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
+
